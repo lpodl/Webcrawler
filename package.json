@@ -1,0 +1,17 @@
+{
+  "name": "WebCrawler",
+  "version": "1.0.0",
+  "description": "Crawls a website and detects broken links",
+  "main": "index.js",
+  "repository": "tba",
+  "author": "Justin Pauckert",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chalk": "^2.4.1",
+    "cheerio": "^1.0.0-rc.2",
+    "mocha": "^5.2.0",
+    "request": "^2.88.0",
+    "url-parse": "^1.4.3"
+  }
+}
