@@ -1,7 +1,7 @@
 /**
  * @author Justin Pauckert (pauckert@bbaw.de)
  * @see http://www.netinstructions.com/how-to-make-a-simple-web-Crawler-in-javascript-and-node-js/
- * Dieser Crawler basiert auf der angegebenen Quelle und wurde für TELOTA angepasst.
+ * this crawler is based on the source code mentioned above and was edited for the purposes of TELOTA
  */
 const request = require('request');
 const cheerio = require('cheerio');
@@ -44,40 +44,61 @@ class Crawler {
       this.Links.push(url);
     }
   }
-  collectRelativeLinks($) {
-    const relativeLinks = $("a[href^='/']");
-    relativeLinks.each((index, element) => {
-      this.push(this.baseUrl + $(element).attr('href'));
-    });
-  }
-  collectAbsoluteLinks($) {
-    const absoluteLinks = $("a[href^='http']");
-    absoluteLinks.each((index, element) => {
-      if ($(element).attr('href').includes(this.initUrl.hostname) || this.CRAWL_EXTERNAL_PAGES) {
-        this.push($(element).attr('href'));
+
+  absoluteLink(currentUrl, relative) {
+      // converts a relative link to an absolute one
+      let stack = currentUrl.split("/"),
+          parts = relative.split("/");
+      stack.pop(); // remove current file name (or empty string)
+      for (let i=0; i<parts.length; i++) {
+          if (parts[i] === ".")
+              continue;
+          if (parts[i] === "..")
+              stack.pop();
+          else
+              stack.push(parts[i]);
       }
-    });
+      return stack.join("/");
   }
-  collectImages($, currentUrl) {
-    const images = $('img');
-    images.each((index, element) => {
-      if ($(element).attr('src').startsWith('http')) {
-        this.push($(element).attr('src'));
-      } else if ($(element).attr('src').startsWith('/')) {
-        this.push(currentUrl + $(element).attr('src'));
-      } else if ($(element).attr('src').startsWith('./')) {
-        const ending = $(element).attr('src').substr(1);
-        this.push(currentUrl + ending);
-      } else if ($(element).attr('src').startsWith('../')) {
-        const temp = new URL(currentUrl);
-        const ending = $(element).attr('src').substr(2);
-        this.push(`${temp.protocol}//${temp.hostname}${ending}`);
-      } else { // we expect the image to be at the current path, e.g. src = "image.jpg"
-        const temp = new URL(currentUrl);
-        this.push(`${temp.protocol}//${temp.hostname}/${$(element).attr('src')}`);
+
+  validateLink(href, currentUrl) {
+    // validates whether or not a link should be excluded from testing it,
+    // pushes the url otherwise
+      // we don't want to do anything but visit via http or https:
+      const skipThese = ['afs:', 'cid:', 'file:', 'ftp:', 'mailto:', 'mid:', 'news:', 'x-exec:', '#'];
+      let flag = false;
+      skipThese.forEach((element) => {
+          if (href.startsWith(element)){
+              flag = true;
+          }
+      });
+      if (flag) {}
+      else if (href.startsWith('http://') || href.startsWith('https://')) { // absolute links
+          if (href.includes(this.initUrl.hostname) || this.CRAWL_EXTERNAL_PAGES) {
+              this.push(href);
+          }
       }
-    });
+      else { //relative links, files, anchors
+          this.push(this.absoluteLink(currentUrl, href));
+      }
+
   }
+  collectLinks($, currentUrl) {
+      const Links = $("a[href]");
+      Links.each((index, element) => {
+          const href = $(element).attr('href');
+          this.validateLink(href, currentUrl);
+      });
+  }
+
+    collectImages($, currentUrl) {
+        const img = $('img');
+        img.each((index, element) => {
+            let src = $(element).attr('src');
+            this.validateLink(src, currentUrl);
+        });
+    }
+
   visitPage(url) {
     this.numPagesVisited += 1;
     // Make the request
@@ -94,8 +115,7 @@ class Crawler {
       }
       // Parse the document body & collect links
       const $ = cheerio.load(body);
-      this.collectRelativeLinks($);
-      this.collectAbsoluteLinks($);
+      this.collectLinks($, url);
       this.collectImages($, url);
       this.crawl(); // crawl on
     });
@@ -106,15 +126,15 @@ class Crawler {
         console.log(`Crawling completed.${this.numPagesVisited} pages visited.${this.Links.length - this.numPagesVisited} pages unchecked because MAX_PAGES_TO_VISIT was reached before. ${this.brokenpages.length} broken pages found; ${this.brokenpages}`);
       }
       this.isdone = true;
-      return;
     }
-    this.visitPage(this.Iterator.next().value);
+    else {
+        this.visitPage(this.Iterator.next().value);
+    }
   }
   start() {
     // setup base url to check possible relative links
     this.push(this.START_URL);
     this.initUrl = new URL(this.START_URL);
-    this.baseUrl = `${this.initUrl.protocol}//${this.initUrl.hostname}`;
     this.brokenpages = [];
     this.crawl();
   }
