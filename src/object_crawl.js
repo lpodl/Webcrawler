@@ -83,6 +83,15 @@ class Crawler {
       }
 
   }
+  collectBaseUrl($, currentUrl) {
+      const BaseTag = $('base');
+      if (BaseTag) {
+          return $(BaseTag).attr('href')
+      }
+      else {
+          return currentUrl
+      }
+  }
   collectLinks($, currentUrl) {
       const Links = $("a[href]");
       Links.each((index, element) => {
@@ -91,18 +100,23 @@ class Crawler {
       });
   }
 
-    collectImages($, currentUrl) {
-        const img = $('img');
-        img.each((index, element) => {
-            let src = $(element).attr('src');
-            this.validateLink(src, currentUrl);
-        });
-    }
+  collectImages($, currentUrl) {
+       const img = $('img');
+       img.each((index, element) => {
+           let src = $(element).attr('src');
+           this.validateLink(src, currentUrl);
+       });
+   }
 
   visitPage(url) {
     this.numPagesVisited += 1;
     // Make the request
     request(url, (error, response, body) => {
+        // very bad requests don't make it through, e.g. http://whathappened-a d///add
+        if (typeof (response) == 'undefined'){
+            console.log('the URL ' + url + 'is formatted too badly.');
+            this.brokenpages.push(url)
+        }
       // Check status code (200 is HTTP OK)
       if (response.statusCode !== 200) {
         this.brokenpages.push(url);
@@ -115,6 +129,7 @@ class Crawler {
       }
       // Parse the document body & collect links
       const $ = cheerio.load(body);
+      url = this.collectBaseUrl($, url);
       this.collectLinks($, url);
       this.collectImages($, url);
       this.crawl(); // crawl on
