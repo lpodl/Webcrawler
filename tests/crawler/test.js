@@ -13,5 +13,6 @@ describe('Links are online', () => {
   it('should not find any broken links', async () => {
     await MyCrawler.promiseToBeDone();
     expect(MyCrawler.brokenpages).to.be.empty;
+    console.table(MyCrawler.brokenpages);
   });
 });
