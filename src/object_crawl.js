@@ -132,7 +132,7 @@ class Crawler {
                 if (response.statusCode !== 200) {
                     this.brokenpages.push(linkTuple);
                     if (this.LOG) {
-                        console.log(chalk.red(`origin: ${linkTuple.origin}\n contains broken link: ${linkTuple.target}`));
+                        console.log(chalk.red(`origin: ${linkTuple.origin}\n`+`contains broken link: ${linkTuple.target}`));
                     }
                     this.crawl();
                 }
@@ -162,10 +162,13 @@ class Crawler {
     }
 
     start() {
-        // setup base url to check possible relative links
+        // reset everything in case the crawler already ran once
+        this.numPagesCrawled = 0;
+        this.isdone = false;
+        this.linkTuples = [];
+        this.Iterator = new Iterator(this.linkTuples);
         this.linkTuples.push({origin: 'manual start setup', target: this.START_URL});
-        this.initUrl = new URL(this.START_URL);
-        this.brokenpages = [];
+        this.initUrl = new URL(this.START_URL); // setup base url to check possible relative links
         this.crawl();
     }
 
@@ -179,16 +182,24 @@ class Crawler {
             return
         }
         // we're done. log the results and resolve
+       this.report();
+        resolve();
+    }
+
+    report(){
+        // prints the crawl results (after the crawler is done)
         if (this.LOG) {
             console.log(chalk.blue(
                 `Crawling completed.${this.numPagesCrawled} pages crawled. \n` +
                 `${this.linkTuples.length - this.numPagesCrawled} pages unchecked because MAX_PAGES_TO_CRAWL was reached before. \n` +
-                `${this.brokenpages.length} broken pages found`)
+                `${this.brokenpages.length} broken pages found;`)
             );
-            console.log(this.brokenpages);
-            console.tabele(this.brokenpages);
         }
-        resolve();
+        for (let tuple of this.brokenpages){
+            console.log(chalk.magenta('-----------------------------------------------------'));
+            console.log('origin: ' + tuple.origin + '\n');
+            console.log('target: ' + tuple.target + '\n');
+        }
     }
 
     promiseToBeDone() {

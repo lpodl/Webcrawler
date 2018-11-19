@@ -6,13 +6,17 @@ const { expect } = require('chai');
 const { Crawler } = require('../../src/object_crawl');
 
 describe('Links are online', () => {
-  const MyCrawler = new Crawler('http://www.bbaw.de/', 1000, false, true);
+  const MyCrawler = new Crawler(
+      'http://www.bbaw.de/', // start URL
+      1000, // max pages to crawl
+      false, // crawl external pages
+      true  // verbose console output
+  );
   before(() => {
     MyCrawler.start();
   });
   it('should not find any broken links', async () => {
     await MyCrawler.promiseToBeDone();
     expect(MyCrawler.brokenpages).to.be.empty;
-    console.table(MyCrawler.brokenpages);
   });
 });
