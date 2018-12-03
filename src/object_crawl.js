@@ -19,6 +19,12 @@ function Iterator(array) {
     };
 }
 
+const options = {
+    headers: {
+        'User-Agent': 'request'
+    }
+};
+
 class Crawler {
     /**
      * @desc Crawler checks if all links and images of a website are online.
@@ -38,6 +44,7 @@ class Crawler {
         this.isdone = false;
         this.linkTuples = []; // Stores old (visited), current (visiting) and new link tuples
         this.Iterator = new Iterator(this.linkTuples);
+        this.brokenpages = [];
     }
 
     push(linkTuple) {
@@ -51,6 +58,7 @@ class Crawler {
         let stack = currentUrl.split("/"),
             parts = relative.split("/");
         stack.pop(); // remove current file name (or empty string)
+        if (parts[0] == '') {parts.shift()}
         for (let i = 0; i < parts.length; i++) {
             if (parts[i] === ".")
                 continue;
@@ -66,7 +74,7 @@ class Crawler {
     validateLink(href, currentUrl) {
         // validates whether or not a link should be excluded from testing it,
         // pushes the url otherwise
-        // we don't want to do anything but visit via http or https:
+        // we don't want to do anything but visit via http or https
         // href = "javascript: ..." should be avoided anyway
         const skipThese = ['afs:', 'cid:', 'file:', 'ftp:', 'mailto:', 'mid:', 'news:', 'x-exec:', '#'];
         let flag = false;
@@ -86,13 +94,15 @@ class Crawler {
         }
     }
 
-    collectBaseUrl($, currentUrl) {
-        const BaseTag = $('base');
-        if (BaseTag) {
-            if ($(BaseTag).attr('href')) {
-                return $(BaseTag).attr('href')
+    collectBaseUrl(base, currentUrl) {
+        console.log(base.length);
+        if (base.length > 0) {
+            const href = base.attr('href');
+            if (href) {
+                // delete anything after the last slash, we only care about our current dir
+                return href.substring(0, href.lastIndexOf('/') + 1)
             } else {
-                this.brokenpages.push({origin: currentUrl, target: 'invalid base tag'});
+                this.brokenpages.push({origin: currentUrl, target: `base tag badly formatted \n ${base.html()}`});
                 return currentUrl
             }
         }
@@ -120,7 +130,7 @@ class Crawler {
     visitPage(linkTuple) {
         if (this.isdone) {} else {
             // Make the request
-            request(linkTuple.target, (error, response, body) => {
+            request({url: linkTuple.target, headers: {'User-Agent': 'TELOTA webcrawler' }}, (error, response, body) => {
                 // very bad requests don't make it through, e.g. http://whathappened-a d///add
                 if (typeof (response) === 'undefined') {
                     console.log('The URL \n' + linkTuple.target + '\n is formatted too badly. Its origin is \n' +
@@ -132,17 +142,17 @@ class Crawler {
                 if (response.statusCode !== 200) {
                     this.brokenpages.push(linkTuple);
                     if (this.LOG) {
-                        console.log(chalk.red(`origin: ${linkTuple.origin}\n`+`contains broken link: ${linkTuple.target}`));
+                        console.log(chalk.red(`[origin] ${linkTuple.origin}\n`+`[broken link] ${linkTuple.target}`));
                     }
                     this.crawl();
                 }
                 if (this.LOG) {
-                    console.log(chalk.green(`${linkTuple.target} is online`));
+                    console.log(chalk.green(`${this.numPagesCrawled}[online] ${linkTuple.target} \n`));
                 }
                 if (linkTuple.target.includes(this.initUrl.hostname || this.CRAWL_EXTERNAL_PAGES)) {
                     // Parse the document body & collect links
                     const $ = cheerio.load(body);
-                    let baseUrl = this.collectBaseUrl($, linkTuple.target);
+                    let baseUrl = this.collectBaseUrl($('base'), linkTuple.target + '/'); // we usually lack a slash at the end
                     this.collectLinks($, baseUrl);
                     this.collectImages($, baseUrl);
                     this.numPagesCrawled += 1;
@@ -170,6 +180,7 @@ class Crawler {
         this.linkTuples.push({origin: 'manual start setup', target: this.START_URL});
         this.initUrl = new URL(this.START_URL); // setup base url to check possible relative links
         this.crawl();
+        console.log(this.initUrl.hostname);
     }
 
     wait(resolve) {
