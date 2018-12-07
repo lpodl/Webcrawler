@@ -28,7 +28,7 @@ Save the file, stay in this directory and run
 `mocha --no-timeouts`
 to start the Crawler.
 
-Note that our colored output might look different or not colored at all if you're using a custom color scheme for your console.
+Note that the colored output might look different or not colored at all if you're using a custom color scheme for your console.
 
 ## How it works
 
@@ -64,7 +64,7 @@ What `test.js` does:
 Usually, we already know which resource is offline. We just want to update the old links and be done. This is where tuples come into play.
 In the end the crawler outputs broken links in objects with two properties: origin (where we found the broken link) and target (usually the absolute link that is broken).
 
-####
+
 ## Possible Modifications
 
 #### Searching for a Keyword
@@ -95,5 +95,5 @@ if (linkTuple.target.includes(this.initUrl.hostname || this.CRAWL_EXTERNAL_PAGES
 #### Excluding references that are not state of the art
 
 The current version of the crawler doesn't take deprecated (or bad) reference habits into account. Links with ```href="javascript:;"``` are considered broken links and there's a 
-[better way](https://stackoverflow.com/a/8493975/7395578) to do this. The same argument holds for ```href="/../subpage"```. If you don't want to change these old references and don't want
+[better way](https://stackoverflow.com/a/8493975/7395578) to do this. The same argument holds for ```href="/../subpage"```. If you don't want to change these references and don't want
 the test to fail because of them, add your exceptions to ´´´skipThese´´´ in the validateLink function. 
