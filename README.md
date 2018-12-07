@@ -11,6 +11,8 @@ Starting from a given url, the Crawler will:
 
 This repository includes a setup to test for broken links on a website with Mocha.js.
 
+
+
 ## Setup
 
 Copy this repository and run  ` npm install .` or `yarn`. This will fetch and install all needed libraries for this crawler.
@@ -29,7 +31,9 @@ Save the file, stay in this directory and run
 to start the Crawler.
 
 Note that our colored output might look different or not colored at all if you're using a custom color scheme for your console.
-
+ 
+ 
+ 
 ## How it works
 
 
