@@ -86,7 +86,7 @@ visitPage {
 ...
 if (linkTuple.target.includes(this.initUrl.hostname || this.CRAWL_EXTERNAL_PAGES)) {
 	const $ = cheerio.load(body);
-	if (this.searchForWord('Old Street 45')) {
+        if (this.searchForWord('Old Street 45')) {
 	this.oldAdressPages.push(linkTuple.target);
 	}
 ...
@@ -96,4 +96,4 @@ if (linkTuple.target.includes(this.initUrl.hostname || this.CRAWL_EXTERNAL_PAGES
 
 The current version of the crawler doesn't take deprecated (or bad) reference habits into account. Links with ```href="javascript:;"``` are considered broken links and there's a 
 [better way](https://stackoverflow.com/a/8493975/7395578) to do this. The same argument holds for ```href="/../subpage"```. If you don't want to change these old references and don't want
-the test to fail because of them, add your exceptions to ´´´skipThese´´´ in the validateLink function. 
+the test to fail because of them, add your exceptions to ```skipThese``` in the validateLink function. 
