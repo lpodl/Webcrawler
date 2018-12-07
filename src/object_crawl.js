@@ -58,7 +58,10 @@ class Crawler {
         let stack = currentUrl.split("/"),
             parts = relative.split("/");
         stack.pop(); // remove current file name (or empty string)
-        if (parts[0] == '') {parts.shift()}
+        if (parts[0] == '') {
+            stack = stack.slice(0,3);
+            parts.shift();
+        }
         for (let i = 0; i < parts.length; i++) {
             if (parts[i] === ".")
                 continue;
@@ -95,7 +98,6 @@ class Crawler {
     }
 
     collectBaseUrl(base, currentUrl) {
-        console.log(base.length);
         if (base.length > 0) {
             const href = base.attr('href');
             if (href) {
@@ -128,7 +130,6 @@ class Crawler {
     }
 
     visitPage(linkTuple) {
-        if (this.isdone) {} else {
             // Make the request
             request({url: linkTuple.target, headers: {'User-Agent': 'TELOTA webcrawler' }}, (error, response, body) => {
                 // very bad requests don't make it through, e.g. http://whathappened-a d///add
@@ -139,27 +140,28 @@ class Crawler {
                     this.crawl();
                 }
                 // Check status code (200 is HTTP OK)
-                if (response.statusCode !== 200) {
+                else if (response.statusCode !== 200) {
                     this.brokenpages.push(linkTuple);
                     if (this.LOG) {
                         console.log(chalk.red(`[origin] ${linkTuple.origin}\n`+`[broken link] ${linkTuple.target}`));
                     }
                     this.crawl();
                 }
-                if (this.LOG) {
-                    console.log(chalk.green(`${this.numPagesCrawled}[online] ${linkTuple.target} \n`));
+                else {
+                    if (this.LOG) {
+                        console.log(chalk.green(`${this.numPagesCrawled}[online] ${linkTuple.target} \n`));
+                    }
+                    if (linkTuple.target.includes(this.initUrl.hostname || this.CRAWL_EXTERNAL_PAGES)) {
+                        // Parse the document body & collect links
+                        const $ = cheerio.load(body);
+                        let baseUrl = this.collectBaseUrl($('base'), linkTuple.target + '/'); // we usually lack a slash at the end
+                        this.collectLinks($, baseUrl);
+                        this.collectImages($, baseUrl);
+                        this.numPagesCrawled += 1;
+                        this.crawl();
+                    }
                 }
-                if (linkTuple.target.includes(this.initUrl.hostname || this.CRAWL_EXTERNAL_PAGES)) {
-                    // Parse the document body & collect links
-                    const $ = cheerio.load(body);
-                    let baseUrl = this.collectBaseUrl($('base'), linkTuple.target + '/'); // we usually lack a slash at the end
-                    this.collectLinks($, baseUrl);
-                    this.collectImages($, baseUrl);
-                    this.numPagesCrawled += 1;
-                }
-                this.crawl();
             });
-        }
     }
 
     crawl() {
@@ -180,7 +182,6 @@ class Crawler {
         this.linkTuples.push({origin: 'manual start setup', target: this.START_URL});
         this.initUrl = new URL(this.START_URL); // setup base url to check possible relative links
         this.crawl();
-        console.log(this.initUrl.hostname);
     }
 
     wait(resolve) {

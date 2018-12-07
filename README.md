@@ -66,3 +66,34 @@ In the end the crawler outputs broken links in objects with two properties: orig
 
 ####
 ## Possible Modifications
+
+#### Searching for a Keyword
+
+Let's say your Adress changed and you wanted to find all subpages on your domain that you did not update yet. You could use cheerio to parse the body and search for your old adress.
+```javascript
+function searchForWord($, word) {
+  let bodyText = $('html > body').text();
+  if(bodyText.toLowerCase().indexOf(word.toLowerCase()) !== -1) {
+    return true
+  }
+  return false;
+}
+```
+Create an oldAdressPages property for our crawler.  
+Edit the visitPage function to store all URLS with the old adress in this.oldAdressPages:
+```javascript
+visitPage {
+...
+if (linkTuple.target.includes(this.initUrl.hostname || this.CRAWL_EXTERNAL_PAGES)) {
+	const $ = cheerio.load(body);
+	if (this.searchForWord('Old Street 45')) {
+	this.oldAdressPages.push(linkTuple.target);
+	}
+...
+```
+
+#### Excluding references that are not state of the art
+
+The current version of the crawler doesn't take deprecated (or bad) reference habits into account. Links with ```href="javascript:;"``` are considered broken links and there's a 
+[better way](https://stackoverflow.com/a/8493975/7395578) to do this. The same argument holds for ```href="/../subpage"```. If you don't want to change these old references and don't want
+the test to fail because of them, add your exceptions to ´´´skipThese´´´ in the validateLink function. 
