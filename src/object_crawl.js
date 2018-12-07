@@ -7,6 +7,8 @@ const request = require('request');
 const cheerio = require('cheerio');
 const URL = require('url-parse');
 const chalk = require('chalk');
+const fs = require('fs');
+const dateFormat = require('dateformat');
 
 function Iterator(array) {
     let index = 0;
@@ -18,12 +20,6 @@ function Iterator(array) {
         },
     };
 }
-
-const options = {
-    headers: {
-        'User-Agent': 'request'
-    }
-};
 
 class Crawler {
     /**
@@ -134,8 +130,8 @@ class Crawler {
             request({url: linkTuple.target, headers: {'User-Agent': 'TELOTA webcrawler' }}, (error, response, body) => {
                 // very bad requests don't make it through, e.g. http://whathappened-a d///add
                 if (typeof (response) === 'undefined') {
-                    console.log('The URL \n' + linkTuple.target + '\n is formatted too badly. Its origin is \n' +
-                        linkTuple.origin);
+                    console.log(chalk.red('The URL \n' + linkTuple.target + '\n is formatted too badly. Its origin is \n' +
+                        linkTuple.origin));
                     this.brokenpages.push(linkTuple);
                     this.crawl();
                 }
@@ -199,19 +195,22 @@ class Crawler {
     }
 
     report(){
-        // prints the crawl results (after the crawler is done)
+        // logs the crawl results (after the crawler is done)
+        let date = new Date();
+        let report = `WebCrawler Report from ${date.toString()} \n`
         if (this.LOG) {
-            console.log(chalk.blue(
+            report = report.concat(
                 `Crawling completed.${this.numPagesCrawled} pages crawled. \n` +
                 `${this.linkTuples.length - this.numPagesCrawled} pages unchecked because MAX_PAGES_TO_CRAWL was reached before. \n` +
-                `${this.brokenpages.length} broken pages found;`)
-            );
+                `${this.brokenpages.length} broken pages found. \n`);
         }
         for (let tuple of this.brokenpages){
-            console.log(chalk.magenta('-----------------------------------------------------'));
-            console.log('origin: ' + tuple.origin + '\n');
-            console.log('target: ' + tuple.target + '\n');
+            report = report.concat(
+                '---------------------------------------------------------\n' +
+                'origin: ' + tuple.origin + '\n' +
+                'target: ' + tuple.target + '\n');
         }
+        fs.writeFile(`../../log/${dateFormat(date, 'HH-MM dd-mm-yyyy')}.txt`, report);
     }
 
     promiseToBeDone() {

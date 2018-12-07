@@ -8,7 +8,7 @@ const { Crawler } = require('../../src/object_crawl');
 describe('Links are online', () => {
   const MyCrawler = new Crawler(
       'http://www.bbaw.de/', // start URL
-      4000, // max pages to crawl
+      1000, // max pages to crawl
       false, // crawl external pages
       true  // verbose console output
   );
