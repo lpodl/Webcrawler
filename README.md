@@ -15,7 +15,7 @@ This repository includes a setup to test for broken links on a website with Moch
 
 ## Setup
 
-Copy this repository and run  ` npm install .` or `yarn`. This will fetch and install all needed libraries for this crawler.
+Download this repository and run  ` npm install .` or `yarn`. This will fetch and install all needed libraries for this crawler.
 
 Go to tests\crawler and open `test.js`. A new Webcrawler is initiated. Enter your specifications for it:
 ```javascript
@@ -100,4 +100,4 @@ if (linkTuple.target.includes(this.initUrl.hostname || this.CRAWL_EXTERNAL_PAGES
 
 The current version of the crawler doesn't take deprecated (or bad) reference habits into account. Links with ```href="javascript:;"``` are considered broken links and there's a 
 [better way](https://stackoverflow.com/a/8493975/7395578) to do this. The same argument holds for ```href="/../subpage"```. If you don't want to change these old references and don't want
-the test to fail because of them, add your exceptions to ```skipThese``` in the validateLink function. 
+the test to fail because of them, add your exceptions to ```SkipStart``` or ```SkipEnd``` in the validateLink function. 

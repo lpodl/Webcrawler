@@ -54,7 +54,7 @@ class Crawler {
         let stack = currentUrl.split("/"),
             parts = relative.split("/");
         stack.pop(); // remove current file name (or empty string)
-        if (parts[0] == '') {
+        if (parts[0] === '') {
             stack = stack.slice(0,3);
             parts.shift();
         }
@@ -73,16 +73,11 @@ class Crawler {
     validateLink(href, currentUrl) {
         // validates whether or not a link should be excluded from testing it,
         // pushes the url otherwise
-        // we don't want to do anything but visit via http or https
-        // href = "javascript: ..." should be avoided anyway
-        const skipThese = ['afs:', 'cid:', 'file:', 'ftp:', 'mailto:', 'mid:', 'news:', 'x-exec:', '#'];
-        let flag = false;
-        skipThese.forEach((element) => {
-            if (href.startsWith(element)) {
-                flag = true;
-            }
-        });
-        if (flag) {}
+        const SkipStart = ['afs:', 'cid:', 'file:', 'ftp:', 'mailto:', 'mid:', 'news:', 'x-exec:', '#'];
+        const SkipEnd = ['.mp3', '.mp4', '.webm', '.wav', '.flac', '.ogg']
+        const flagStart = (skipPhrase) => href.startsWith(skipPhrase);
+        const flagEnd = (skipPhrase ) => href.endsWith(skipPhrase);
+        if (SkipStart.some(flagStart) || SkipEnd.some(flagEnd)) {}
         else if (href.startsWith('http://') || href.startsWith('https://')) { // absolute links
             if (href.includes(this.initUrl.hostname) || this.CRAWL_EXTERNAL_PAGES) {
                 this.push({origin: currentUrl, target: href});
@@ -128,7 +123,6 @@ class Crawler {
     visitPage(linkTuple) {
             // Make the request
             request({url: linkTuple.target, headers: {'User-Agent': 'TELOTA webcrawler' }}, (error, response, body) => {
-                // very bad requests don't make it through, e.g. http://whathappened-a d///add
                 if (typeof (response) === 'undefined') {
                     console.log(chalk.red('The URL \n' + linkTuple.target + '\n is formatted too badly. Its origin is \n' +
                         linkTuple.origin));
@@ -154,6 +148,9 @@ class Crawler {
                         this.collectLinks($, baseUrl);
                         this.collectImages($, baseUrl);
                         this.numPagesCrawled += 1;
+                        // DEBUG
+                        let links = this.linkTuples;
+                        let broken = this.brokenpages;
                         this.crawl();
                     }
                 }
@@ -224,3 +221,12 @@ class Crawler {
 module.exports = {
     Crawler,
 };
+
+const MyCrawler = new Crawler(
+    'http://www.bbaw.de/', // start URL
+    10000, // max pages to crawl
+    false, // crawl external pages
+    true  // verbose console output
+);
+
+MyCrawler.start();
