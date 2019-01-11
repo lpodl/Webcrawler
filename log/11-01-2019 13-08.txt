@@ -1,0 +1,9 @@
+WebCrawler Report from Fri Jan 11 2019 13:08:00 GMT+0100 (Mitteleuropäische Zeit) 
+Crawling completed.1 pages crawled. 
+0 pages unchecked because MAX_PAGES_TO_CRAWL was reached before. 
+1 broken pages found. 
+---------------------------------------------------------
+origin: http://www.bbaw.de/telota/ressourcen/alphabetische-liste/RSS/
+target: not specified
+tagName: img
+attributes: {"rdf:resource":"http://www.bbaw.de/logo.jpg"}

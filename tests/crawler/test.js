@@ -7,7 +7,7 @@ const { Crawler } = require('../../src/object_crawl');
 
 describe('Links are online', () => {
   const MyCrawler = new Crawler(
-      'http://www.bbaw.de/', // start URL
+      'http://www.bbaw.de/telota/ressourcen/alphabetische-liste/RSS', // start URL
       10000, // max pages to crawl
       false, // crawl external pages
       true  // verbose console output
