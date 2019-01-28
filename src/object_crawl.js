@@ -1,3 +1,4 @@
+/* eslint-disable no-plusplus */
 /**
  * @author Justin Pauckert (pauckert@bbaw.de)
  * @see http://www.netinstructions.com/how-to-make-a-simple-web-Crawler-in-javascript-and-node-js/
@@ -17,14 +18,16 @@ function Iterator(array) {
     next() {
       return index < array.length
         ? {
-          // eslint-disable-next-line no-plusplus
-          value: array[index++],
-          done: false,
-        }
+            value: array[index++],
+            done: false
+          }
         : {
-          done: true,
-        };
+            done: true
+          };
     },
+    current() {
+      return index;
+    }
   };
 }
 
@@ -48,6 +51,11 @@ function absoluteLink(currentUrl, relative) {
   return targetURL;
 }
 
+function reduceTuple(tuple) {
+  // takes a tuple of the form {origin:..., target:..., element:...}
+  // deletes origin and element reduce heap size
+  return { target: tuple.target };
+}
 class Crawler {
   /**
    * @desc Crawler checks if all links and images of a website are online.
@@ -62,7 +70,7 @@ class Crawler {
     START_URL,
     MAX_PAGES_TO_CRAWL = 200,
     CRAWL_EXTERNAL_PAGES = false,
-    CONSOLE_OUTPUT = false,
+    CONSOLE_OUTPUT = false
   ) {
     this.START_URL = START_URL;
     this.MAX_PAGES_TO_CRAWL = MAX_PAGES_TO_CRAWL;
@@ -104,7 +112,7 @@ class Crawler {
       this.brokenpages.push({
         origin: currentUrl,
         target: href,
-        element,
+        element
       });
     } else if (SkipStart.some(flagStart) || SkipEnd.some(flagEnd)) {
       // skip href
@@ -114,7 +122,7 @@ class Crawler {
         this.pushNew({
           origin: currentUrl,
           target: href,
-          element,
+          element
         });
       }
     } else {
@@ -122,7 +130,7 @@ class Crawler {
       this.pushNew({
         origin: currentUrl,
         target: absoluteLink(currentUrl, href),
-        element,
+        element
       });
     }
   }
@@ -134,7 +142,7 @@ class Crawler {
         this.brokenpages.push({
           origin: currentUrl,
           target: 'undefined',
-          element: base,
+          element: base
         });
         return currentUrl;
       }
@@ -145,7 +153,7 @@ class Crawler {
       this.brokenpages.push({
         origin: currentUrl,
         target: 'more than one base tag specified',
-        element: base[0],
+        element: base[0]
       });
       return currentUrl;
     }
@@ -174,8 +182,8 @@ class Crawler {
       {
         url: linkTuple.target,
         headers: {
-          'User-Agent': 'TELOTA webcrawler',
-        },
+          'User-Agent': 'TELOTA webcrawler'
+        }
       },
       (error, response, body) => {
         // prettier-ignore
@@ -186,10 +194,12 @@ class Crawler {
         } else if (response.statusCode !== 200) {
         // push broken page if status code is not 200 HTTP OK
           this.brokenpages.push(linkTuple);
-          this.log(`[origin] ${linkTuple.origin}\n [broken link] ${linkTuple.target}`, 'red');
+          this.log(`[origin] ${linkTuple.origin}\n[broken link] ${linkTuple.target}`, 'red');
           this.crawl();
         } else {
           this.log(`${this.numPagesCrawled}[online] ${linkTuple.target} \n`, 'green');
+          // origin and element are no longer needed because the target is online, reduce tuple
+          this.linkTuples[this.linkTuples.indexOf(linkTuple)] = reduceTuple(linkTuple);
           if (linkTuple.target.includes(this.initUrl.hostname || this.CRAWL_EXTERNAL_PAGES)) {
             // Parse the document body & collect links
             const $ = cheerio.load(body);
@@ -200,7 +210,7 @@ class Crawler {
             this.crawl();
           }
         }
-      },
+      }
     );
   }
 
@@ -222,7 +232,7 @@ class Crawler {
     this.Iterator = new Iterator(this.linkTuples);
     this.linkTuples.push({
       origin: 'manual start setup',
-      target: this.START_URL,
+      target: this.START_URL
     });
     this.initUrl = new URL(this.START_URL); // setup base url to check possible relative links
     this.crawl();
@@ -259,8 +269,8 @@ class Crawler {
       report = report.concat(
         `---------------------------------------------------------\r\n origin: ${tuple.origin}\r\n`
           + `target: ${tuple.target}\r\n`
-          + `tagName: ${tuple.tagName}\r\n`
-          + `attributes: ${JSON.stringify(tuple.attributes)}`,
+          + `tagName: ${tuple.element.tagName}\r\n`
+          + `attributes: ${JSON.stringify(tuple.element.attributes)}`,
       );
     }
     fs.writeFile(`../../log/${dateFormat(date, 'dd-mm-yyyy HH-MM')}.txt`, report);
@@ -268,12 +278,22 @@ class Crawler {
 
   promiseToBeDone() {
     // returns a promise that is resolved once the crawler is done.
-    return new Promise((resolve) => {
+    return new Promise(resolve => {
       this.wait(resolve);
     });
   }
 }
 
 module.exports = {
-  Crawler,
+  Crawler
 };
+
+/*
+const MyCrawler = new Crawler(
+  'http://www.bbaw.de/', // start URL
+  10000, // max pages to crawl
+  false, // crawl external pages
+  true // verbose console output
+);
+MyCrawler.start();
+*/
