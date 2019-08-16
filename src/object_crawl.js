@@ -34,7 +34,6 @@ function Iterator(array) {
 function absoluteLink(currentUrl, relative) {
   // converts a relative link to an absolute one
   let stack = currentUrl.split('/');
-
   const parts = relative.split('/');
   stack.pop(); // remove current file name (or empty string)
   if (parts[0] === '') {
@@ -53,7 +52,7 @@ function absoluteLink(currentUrl, relative) {
 
 function reduceTuple(tuple) {
   // takes a tuple of the form {origin:..., target:..., element:...}
-  // deletes origin and element reduce heap size
+  // deletes origin and element to reduce heap size
   return { target: tuple.target };
 }
 class Crawler {
@@ -96,23 +95,29 @@ class Crawler {
   }
 
   pushNew(linkTuple) {
+    // add broken target URLs to queue even if we've alrdy checked them
+    // we'll collect multiple broken links to the same missing address this way
+    if (this.brokenpages.some(brokenTuple => brokenTuple.target === linkTuple.target)){
+      this.linkTuples.push(linkTuple);
+    }
+    // only add target URL to queue if we haven't visited it yet
     if (!this.linkTuples.some(oldTuple => oldTuple.target === linkTuple.target)) {
       this.linkTuples.push(linkTuple);
     }
   }
 
-  validateLink(currentUrl, href, element) {
+  validateLink(currentUrl, href, attributes) {
     // validates whether or not a link should be excluded from testing it,
     // pushes the url otherwise
     const SkipStart = ['afs:', 'cid:', 'file:', 'ftp:', 'mailto:', 'mid:', 'news:', 'x-exec:', '#'];
-    const SkipEnd = ['.mp3', '.mp4', '.webm', '.wav', '.flac', '.ogg'];
+    const SkipEnd = ['.mp3', '.mp4', '.webm', '.wav', '.flac', '.ogg', '.pdf'];
     const flagStart = skipPhrase => href.startsWith(skipPhrase);
     const flagEnd = skipPhrase => href.endsWith(skipPhrase);
     if (typeof href === 'undefined') {
       this.brokenpages.push({
         origin: currentUrl,
         target: href,
-        element
+        attributes
       });
     } else if (SkipStart.some(flagStart) || SkipEnd.some(flagEnd)) {
       // skip href
@@ -122,7 +127,7 @@ class Crawler {
         this.pushNew({
           origin: currentUrl,
           target: href,
-          element
+          attributes
         });
       }
     } else {
@@ -130,7 +135,7 @@ class Crawler {
       this.pushNew({
         origin: currentUrl,
         target: absoluteLink(currentUrl, href),
-        element
+        attributes
       });
     }
   }
@@ -142,7 +147,7 @@ class Crawler {
         this.brokenpages.push({
           origin: currentUrl,
           target: 'undefined',
-          element: base
+          element: 'base'
         });
         return currentUrl;
       }
@@ -153,7 +158,6 @@ class Crawler {
       this.brokenpages.push({
         origin: currentUrl,
         target: 'more than one base tag specified',
-        element: base[0]
       });
       return currentUrl;
     }
@@ -164,7 +168,8 @@ class Crawler {
     const Links = $('a[href]');
     Links.each((index, element) => {
       const href = $(element).attr('href');
-      this.validateLink(currentUrl, href, element);
+      const attributes = JSON.stringify(element.attribs);
+      this.validateLink(currentUrl, href, attributes);
     });
   }
 
@@ -172,7 +177,8 @@ class Crawler {
     const img = $('img');
     img.each((index, element) => {
       const src = $(element).attr('src');
-      this.validateLink(currentUrl, src, element);
+      const attributes = JSON.stringify(element.attribs);
+      this.validateLink(currentUrl, src, attributes);
     });
   }
 
@@ -198,8 +204,6 @@ class Crawler {
           this.crawl();
         } else {
           this.log(`${this.numPagesCrawled}[online] ${linkTuple.target} \n`, 'green');
-          // origin and element are no longer needed because the target is online, reduce tuple
-          this.linkTuples[this.linkTuples.indexOf(linkTuple)] = reduceTuple(linkTuple);
           if (linkTuple.target.includes(this.initUrl.hostname || this.CRAWL_EXTERNAL_PAGES)) {
             // Parse the document body & collect links
             const $ = cheerio.load(body);
@@ -217,6 +221,7 @@ class Crawler {
   crawl() {
     // visit next page if there is one and maximum page count is not exceeded
     const nextPage = this.Iterator.next().value;
+    console.log(`next up:${nextPage.target}`);
     if (typeof nextPage === 'undefined' || this.numPagesCrawled >= this.MAX_PAGES_TO_CRAWL) {
       this.isdone = true;
     } else {
@@ -267,10 +272,10 @@ class Crawler {
       const tuple = this.brokenpages[i];
       // prettier-ignore
       report = report.concat(
-        `---------------------------------------------------------\r\n origin: ${tuple.origin}\r\n`
+        `---------------------------------------------------------\r\n `
+        + `origin: ${tuple.origin}\r\n`
           + `target: ${tuple.target}\r\n`
-          + `tagName: ${tuple.element.tagName}\r\n`
-          + `attributes: ${JSON.stringify(tuple.element.attributes)}`,
+          + `attributes: ${tuple.attributes}\r\n`,
       );
     }
     fs.writeFile(`../../log/${dateFormat(date, 'dd-mm-yyyy HH-MM')}.txt`, report);
@@ -288,12 +293,12 @@ module.exports = {
   Crawler
 };
 
-/*
+
 const MyCrawler = new Crawler(
   'http://www.bbaw.de/', // start URL
-  10000, // max pages to crawl
+  5000, // max pages to crawl
   false, // crawl external pages
   true // verbose console output
 );
 MyCrawler.start();
-*/
+

@@ -1,0 +1,31 @@
+WebCrawler Report from Fri Aug 16 2019 17:41:41 GMT+0200 (Mitteleuropäische Sommerzeit) 
+Crawling completed.1000 pages crawled. 
+ 
+      5223 pages unchecked because MAX_PAGES_TO_CRAWL was reached before. 
+
+      6 broken pages found. 
+---------------------------------------------------------
+ origin: http://www.bbaw.de/
+target: http://www.bbaw.de/nbn-resolving.de/urn:nbn:de:kobv:b4-opus4-29864
+tagName: a
+attributes: undefined---------------------------------------------------------
+ origin: http://www.bbaw.de/forschung/
+target: http://www.bbaw.de/forschung/javascript:;
+tagName: a
+attributes: undefined---------------------------------------------------------
+ origin: http://www.bbaw.de/service/veranstaltungsinfos/
+target: http://www.bbaw.de/service/veranstaltungsinfos/javascript:;
+tagName: a
+attributes: undefined---------------------------------------------------------
+ origin: http://www.bbaw.de/publikationen/neuerscheinungen/
+target: http://www.bbaw.de/publikationen/neuerscheinungen/urn:nbn:de:kobv:b4-opus4-30039
+tagName: a
+attributes: undefined---------------------------------------------------------
+ origin: http://www.bbaw.de/telota/
+target: http://forschung/alphabetisch/schleiermacher_II
+tagName: a
+attributes: undefined---------------------------------------------------------
+ origin: http://www.bbaw.de/telota/publikationen/
+target: http://www.bbaw.de/telota/projekte/digitale_editionen
+tagName: a
+attributes: undefined
