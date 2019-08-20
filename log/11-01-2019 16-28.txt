@@ -1,6 +1,0 @@
-WebCrawler Report from Fri Jan 11 2019 16:28:26 GMT+0100 (Mitteleuropäische Zeit) 
-Crawling completed.0 pages crawled. 
- 
-      1 pages unchecked because MAX_PAGES_TO_CRAWL was reached before. 
-
-      0 broken pages found. 

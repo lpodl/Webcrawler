@@ -88,6 +88,8 @@ class Crawler {
         console.log(chalk.green(str));
       } else if (color === 'red') {
         console.log(chalk.red(str));
+      } else if (color === 'yellow') {
+        console.log(chalk.yellow(str));
       } else {
         console.log(str);
       }
@@ -221,8 +223,8 @@ class Crawler {
   crawl() {
     // visit next page if there is one and maximum page count is not exceeded
     const nextPage = this.Iterator.next().value;
-    console.log(`next up:${nextPage.target}`);
     if (typeof nextPage === 'undefined' || this.numPagesCrawled >= this.MAX_PAGES_TO_CRAWL) {
+      this.log('Crawling done. Resolve and log...', 'yellow');
       this.isdone = true;
     } else {
       this.visitPage(nextPage);
@@ -258,27 +260,38 @@ class Crawler {
   }
 
   report() {
-    console.log(this.brokenpages);
     // logs the results to a file after the crawler is done
     const date = new Date();
     let report = `WebCrawler Report from ${date.toString()} \n`;
     // prettier-ignore
     report = report.concat(
-      `Crawling completed.${this.numPagesCrawled} pages crawled. \r\n 
-      ${this.linkTuples.length - this.numPagesCrawled} pages unchecked because MAX_PAGES_TO_CRAWL was reached before. \r\n
-      ${this.brokenpages.length} broken pages found. \r\n`,
+      `Crawling completed.${this.numPagesCrawled} pages crawled. \r\n`+ 
+      `${this.linkTuples.length - this.numPagesCrawled} pages unchecked because MAX_PAGES_TO_CRAWL was reached before. \r\n` +
+      `${this.brokenpages.length} broken pages found. \r\n`,
     );
-    for (let i = 0; i < this.brokenpages.length; i += 1) {
-      const tuple = this.brokenpages[i];
-      // prettier-ignore
+    // create an object with origins as properties
+    // each origin property contains the broken targets found on that page
+    let record = {};
+    this.brokenpages.forEach((tuple) => {
+      const origin = tuple.origin;
+      record[origin] = (record[origin] || []).concat({'target':tuple.target, 'attributes': tuple.attributes});
+    })
+    // Create a headline for each origin
+    Object.keys(record).forEach((originKey) => {
       report = report.concat(
-        `---------------------------------------------------------\r\n `
-        + `origin: ${tuple.origin}\r\n`
-          + `target: ${tuple.target}\r\n`
-          + `attributes: ${tuple.attributes}\r\n`,
-      );
-    }
-    fs.writeFile(`../../log/${dateFormat(date, 'dd-mm-yyyy HH-MM')}.txt`, report);
+        '---------------------------------------------------------\r\n ' +
+        originKey +
+        '\r\n ---------------------------------------------------------\r\n '
+      )
+      // fill in all broken pages found on that site
+      record[originKey].forEach((brokenTuple) => {
+        report = report.concat(
+          `target: ${brokenTuple.target}\r\n` +
+          `attributes: ${brokenTuple.attributes}\r\n \r\n`,
+        )
+      })
+    })
+    fs.writeFile(`../../log/${dateFormat(date, 'mm-dd-yyyy HH-MM')}.txt`, report);
   }
 
   promiseToBeDone() {
@@ -294,11 +307,12 @@ module.exports = {
 };
 
 
-const MyCrawler = new Crawler(
-  'http://www.bbaw.de/', // start URL
-  5000, // max pages to crawl
-  false, // crawl external pages
-  true // verbose console output
-);
+/*const MyCrawler = new Crawler(
+    // 'http://www.bbaw.de/', // start URL
+    'http://www.bbaw.de/en/telota/resources/',
+    100, // max pages to crawl
+    false, // crawl external pages
+    true, // verbose console output
+  );
 MyCrawler.start();
-
+*/

@@ -1,0 +1,97 @@
+WebCrawler Report from Tue Aug 20 2019 20:14:47 GMT+0200 (Mitteleuropäische Sommerzeit) 
+Crawling completed.1000 pages crawled. 
+5810 pages unchecked because MAX_PAGES_TO_CRAWL was reached before. 
+19 broken pages found. 
+---------------------------------------------------------
+ http://www.bbaw.de/en/telota/resources/
+ ---------------------------------------------------------
+ target: http://www.bbaw.de/en/telota/resources/javascript:;
+attributes: {"class":"default","href":"javascript:;"}
+ 
+target: http://www.bbaw.de/en/telota/resources/javascript: adFormLine ('queryLine1');
+attributes: {"href":"javascript: adFormLine ('queryLine1');"}
+ 
+target: http://www.bbaw.de/en/telota/resources/javascript:;
+attributes: {"class":"default","href":"javascript:;"}
+ 
+target: http://www.bbaw.de/en/telota/resources/javascript:;
+attributes: {"class":"default","href":"javascript:;"}
+ 
+target: http://www.bbaw.de/en/telota/resources/javascript:;
+attributes: {"class":"default","href":"javascript:;"}
+ 
+target: http://www.bbaw.de/en/telota/resources/javascript:;
+attributes: {"class":"default","href":"javascript:;"}
+ 
+target: http://www.bbaw.de/en/telota/resources/javascript:;
+attributes: {"class":"default","href":"javascript:;"}
+ 
+---------------------------------------------------------
+ http://www.bbaw.de/
+ ---------------------------------------------------------
+ target: http://www.bbaw.de/nbn-resolving.de/urn:nbn:de:kobv:b4-opus4-29864
+attributes: {"class":"more","href":"nbn-resolving.de/urn:nbn:de:kobv:b4-opus4-29864"}
+ 
+---------------------------------------------------------
+ http://www.bbaw.de/en/research/
+ ---------------------------------------------------------
+ target: http://www.bbaw.de/en/research/javascript:;
+attributes: {"href":"javascript:;","class":"default"}
+ 
+---------------------------------------------------------
+ http://www.bbaw.de/telota/ressourcen/
+ ---------------------------------------------------------
+ target: http://www.bbaw.de/telota/ressourcen/javascript:;
+attributes: {"href":"javascript:;","class":"default"}
+ 
+target: http://www.bbaw.de/telota/projekte/digitale_editionen
+attributes: {"target":"_self","href":"../projekte/digitale_editionen","class":"more"}
+ 
+---------------------------------------------------------
+ http://www.bbaw.de/en/telota/projectcollection/
+ ---------------------------------------------------------
+ target: http://www.bbaw.de/bbaw/Forschung/Forschungsprojekte/actaborussica/de/Startseite
+attributes: {"class":"external-link","href":"../../../bbaw/Forschung/Forschungsprojekte/actaborussica/de/Startseite"}
+ 
+---------------------------------------------------------
+ http://www.bbaw.de/telota/ressourcen/alphabetische-liste/RSS/
+ ---------------------------------------------------------
+ target: undefined
+attributes: {"rdf:resource":"http://www.bbaw.de/logo.jpg"}
+ 
+---------------------------------------------------------
+ http://www.bbaw.de/telota/ressourcen/zentrum-alte-welt/RSS/
+ ---------------------------------------------------------
+ target: undefined
+attributes: {"rdf:resource":"http://www.bbaw.de/logo.jpg"}
+ 
+---------------------------------------------------------
+ http://www.bbaw.de/telota/ressourcen/zentrum-preussen/RSS/
+ ---------------------------------------------------------
+ target: undefined
+attributes: {"rdf:resource":"http://www.bbaw.de/logo.jpg"}
+ 
+---------------------------------------------------------
+ http://www.bbaw.de/telota/ressourcen/zentrum-sprache/RSS/
+ ---------------------------------------------------------
+ target: undefined
+attributes: {"rdf:resource":"http://www.bbaw.de/logo.jpg"}
+ 
+---------------------------------------------------------
+ http://www.bbaw.de/forschung/
+ ---------------------------------------------------------
+ target: http://www.bbaw.de/forschung/javascript:;
+attributes: {"class":"default","href":"javascript:;"}
+ 
+---------------------------------------------------------
+ http://www.bbaw.de/service/veranstaltungsinfos/
+ ---------------------------------------------------------
+ target: http://www.bbaw.de/service/veranstaltungsinfos/javascript:;
+attributes: {"href":"javascript:;","class":"default"}
+ 
+---------------------------------------------------------
+ http://www.bbaw.de/publikationen/neuerscheinungen/
+ ---------------------------------------------------------
+ target: http://www.bbaw.de/publikationen/neuerscheinungen/urn:nbn:de:kobv:b4-opus4-30039
+attributes: {"class":"more","href":"urn:nbn:de:kobv:b4-opus4-30039"}
+ 

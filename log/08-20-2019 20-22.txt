@@ -1,0 +1,46 @@
+WebCrawler Report from Tue Aug 20 2019 20:22:44 GMT+0200 (Mitteleuropäische Sommerzeit) 
+Crawling completed.1000 pages crawled. 
+5072 pages unchecked because MAX_PAGES_TO_CRAWL was reached before. 
+7 broken pages found. 
+---------------------------------------------------------
+ http://www.bbaw.de/
+ ---------------------------------------------------------
+ target: http://www.bbaw.de/nbn-resolving.de/urn:nbn:de:kobv:b4-opus4-29864
+attributes: {"class":"more","href":"nbn-resolving.de/urn:nbn:de:kobv:b4-opus4-29864"}
+ 
+---------------------------------------------------------
+ http://www.bbaw.de/forschung/
+ ---------------------------------------------------------
+ target: http://www.bbaw.de/forschung/javascript:;
+attributes: {"class":"default","href":"javascript:;"}
+ 
+---------------------------------------------------------
+ http://www.bbaw.de/service/veranstaltungsinfos/
+ ---------------------------------------------------------
+ target: http://www.bbaw.de/service/veranstaltungsinfos/javascript:;
+attributes: {"href":"javascript:;","class":"default"}
+ 
+---------------------------------------------------------
+ http://www.bbaw.de/publikationen/neuerscheinungen/
+ ---------------------------------------------------------
+ target: http://www.bbaw.de/publikationen/neuerscheinungen/urn:nbn:de:kobv:b4-opus4-30039
+attributes: {"class":"more","href":"urn:nbn:de:kobv:b4-opus4-30039"}
+ 
+---------------------------------------------------------
+ http://www.bbaw.de/telota/
+ ---------------------------------------------------------
+ target: http://forschung/alphabetisch/schleiermacher_II
+attributes: {"class":"external-link","href":"/../forschung/alphabetisch/schleiermacher_II"}
+ 
+---------------------------------------------------------
+ http://www.bbaw.de/telota/publikationen/
+ ---------------------------------------------------------
+ target: http://www.bbaw.de/telota/projekte/digitale_editionen
+attributes: {"class":"more","href":"/telota/projekte/digitale_editionen","target":"_self"}
+ 
+---------------------------------------------------------
+ http://www.bbaw.de/die-akademie/mitarbeiter/
+ ---------------------------------------------------------
+ target: http://www.bbaw.de/die-akademie/mitarbeiter/benites
+attributes: {"class":"more","href":"http://www.bbaw.de/die-akademie/mitarbeiter/benites"}
+ 
