@@ -1,0 +1,9 @@
+WebCrawler Report from Thu Aug 22 2019 16:42:51 GMT+0200 (Mitteleuropäische Sommerzeit) 
+Crawling completed.0 pages crawled. 
+No more links found.1 broken pages found. 
+###################################################################
+manual start setup
+###################################################################
+target: http://bbaw.de/
+attributes: undefined
+

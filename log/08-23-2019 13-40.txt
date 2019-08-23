@@ -1,0 +1,1990 @@
+WebCrawler Report from Fri Aug 23 2019 13:40:19 GMT+0200 (Mitteleuropäische Sommerzeit) 
+Crawling completed.20000 pages crawled. 
+35150 pages unchecked because MAX_PAGES_TO_CRAWL was reached before. 
+591 broken pages found. 
+###################################################################
+http://www.bbaw.de/
+###################################################################
+target: http://www.bbaw.de/nbn-resolving.de/urn:nbn:de:kobv:b4-opus4-29864
+attributes: {"class":"more","href":"nbn-resolving.de/urn:nbn:de:kobv:b4-opus4-29864"}
+
+target: http://www.bbaw.de/nbn-resolving.de/urn:nbn:de:kobv:b4-opus4-29864
+attributes: {"class":"more","href":"nbn-resolving.de/urn:nbn:de:kobv:b4-opus4-29864"}
+
+target: http://www.bbaw.de/nbn-resolving.de/urn:nbn:de:kobv:b4-opus4-29864
+attributes: {"class":"more","href":"nbn-resolving.de/urn:nbn:de:kobv:b4-opus4-29864"}
+
+target: http://www.bbaw.de/nbn-resolving.de/urn:nbn:de:kobv:b4-opus4-29864
+attributes: {"class":"more","href":"nbn-resolving.de/urn:nbn:de:kobv:b4-opus4-29864"}
+
+target: http://www.bbaw.de/nbn-resolving.de/urn:nbn:de:kobv:b4-opus4-29864
+attributes: {"class":"more","href":"nbn-resolving.de/urn:nbn:de:kobv:b4-opus4-29864"}
+
+target: http://www.bbaw.de/nbn-resolving.de/urn:nbn:de:kobv:b4-opus4-29864
+attributes: {"class":"more","href":"nbn-resolving.de/urn:nbn:de:kobv:b4-opus4-29864"}
+
+target: http://www.bbaw.de/nbn-resolving.de/urn:nbn:de:kobv:b4-opus4-29864
+attributes: {"class":"more","href":"nbn-resolving.de/urn:nbn:de:kobv:b4-opus4-29864"}
+
+target: http://www.bbaw.de/nbn-resolving.de/urn:nbn:de:kobv:b4-opus4-29864
+attributes: {"class":"more","href":"nbn-resolving.de/urn:nbn:de:kobv:b4-opus4-29864"}
+
+###################################################################
+http://www.bbaw.de/publikationen/neuerscheinungen/
+###################################################################
+target: http://www.bbaw.de/publikationen/neuerscheinungen/urn:nbn:de:kobv:b4-opus4-30039
+attributes: {"class":"more","href":"urn:nbn:de:kobv:b4-opus4-30039"}
+
+target: http://www.bbaw.de/publikationen/neuerscheinungen/urn:nbn:de:kobv:b4-opus4-30039
+attributes: {"class":"more","href":"urn:nbn:de:kobv:b4-opus4-30039"}
+
+target: http://www.bbaw.de/publikationen/neuerscheinungen/urn:nbn:de:kobv:b4-opus4-30039
+attributes: {"class":"more","href":"urn:nbn:de:kobv:b4-opus4-30039"}
+
+target: http://www.bbaw.de/publikationen/neuerscheinungen/urn:nbn:de:kobv:b4-opus4-30039
+attributes: {"class":"more","href":"urn:nbn:de:kobv:b4-opus4-30039"}
+
+target: http://www.bbaw.de/publikationen/neuerscheinungen/urn:nbn:de:kobv:b4-opus4-30039
+attributes: {"class":"more","href":"urn:nbn:de:kobv:b4-opus4-30039"}
+
+###################################################################
+http://www.bbaw.de/telota/
+###################################################################
+target: http://forschung/alphabetisch/schleiermacher_II
+attributes: {"class":"external-link","href":"/../forschung/alphabetisch/schleiermacher_II"}
+
+target: http://forschung/alphabetisch/schleiermacher_II
+attributes: {"class":"external-link","href":"/../forschung/alphabetisch/schleiermacher_II"}
+
+target: http://forschung/alphabetisch/schleiermacher_II
+attributes: {"class":"external-link","href":"/../forschung/alphabetisch/schleiermacher_II"}
+
+target: http://forschung/alphabetisch/schleiermacher_II
+attributes: {"class":"external-link","href":"/../forschung/alphabetisch/schleiermacher_II"}
+
+target: http://forschung/alphabetisch/schleiermacher_II
+attributes: {"class":"external-link","href":"/../forschung/alphabetisch/schleiermacher_II"}
+
+target: http://forschung/alphabetisch/schleiermacher_II
+attributes: {"class":"external-link","href":"/../forschung/alphabetisch/schleiermacher_II"}
+
+target: http://forschung/alphabetisch/schleiermacher_II
+attributes: {"class":"external-link","href":"/../forschung/alphabetisch/schleiermacher_II"}
+
+target: http://forschung/alphabetisch/schleiermacher_II
+attributes: {"class":"external-link","href":"/../forschung/alphabetisch/schleiermacher_II"}
+
+target: http://forschung/alphabetisch/schleiermacher_II
+attributes: {"class":"external-link","href":"/../forschung/alphabetisch/schleiermacher_II"}
+
+target: http://forschung/alphabetisch/schleiermacher_II
+attributes: {"class":"external-link","href":"/../forschung/alphabetisch/schleiermacher_II"}
+
+target: http://forschung/alphabetisch/schleiermacher_II
+attributes: {"class":"external-link","href":"/../forschung/alphabetisch/schleiermacher_II"}
+
+target: http://forschung/alphabetisch/schleiermacher_II
+attributes: {"class":"external-link","href":"/../forschung/alphabetisch/schleiermacher_II"}
+
+target: http://forschung/alphabetisch/schleiermacher_II
+attributes: {"class":"external-link","href":"/../forschung/alphabetisch/schleiermacher_II"}
+
+target: http://forschung/alphabetisch/schleiermacher_II
+attributes: {"class":"external-link","href":"/../forschung/alphabetisch/schleiermacher_II"}
+
+target: http://forschung/alphabetisch/schleiermacher_II
+attributes: {"class":"external-link","href":"/../forschung/alphabetisch/schleiermacher_II"}
+
+target: http://forschung/alphabetisch/schleiermacher_II
+attributes: {"class":"external-link","href":"/../forschung/alphabetisch/schleiermacher_II"}
+
+target: http://forschung/alphabetisch/schleiermacher_II
+attributes: {"class":"external-link","href":"/../forschung/alphabetisch/schleiermacher_II"}
+
+target: http://forschung/alphabetisch/schleiermacher_II
+attributes: {"class":"external-link","href":"/../forschung/alphabetisch/schleiermacher_II"}
+
+target: http://forschung/alphabetisch/schleiermacher_II
+attributes: {"class":"external-link","href":"/../forschung/alphabetisch/schleiermacher_II"}
+
+target: http://forschung/alphabetisch/schleiermacher_II
+attributes: {"class":"external-link","href":"/../forschung/alphabetisch/schleiermacher_II"}
+
+target: http://forschung/alphabetisch/schleiermacher_II
+attributes: {"class":"external-link","href":"/../forschung/alphabetisch/schleiermacher_II"}
+
+###################################################################
+http://www.bbaw.de/telota/publikationen/
+###################################################################
+target: http://www.bbaw.de/telota/projekte/digitale_editionen
+attributes: {"class":"more","href":"/telota/projekte/digitale_editionen","target":"_self"}
+
+target: http://www.bbaw.de/bbaw/Forschung/Forschungsprojekte/gcs/de/Startseite
+attributes: {"href":"../../bbaw/Forschung/Forschungsprojekte/gcs/de/Startseite"}
+
+target: http://www.bbaw.de/bbaw/Forschung/Forschungsprojekte/leibniz_berlin/de/Startseite
+attributes: {"href":"../../bbaw/Forschung/Forschungsprojekte/leibniz_berlin/de/Startseite"}
+
+target: http://www.bbaw.de/bbaw/Forschung/Forschungsprojekte/turfanforschung/de/Startseite
+attributes: {"href":"../../bbaw/Forschung/Forschungsprojekte/turfanforschung/de/Startseite"}
+
+target: http://www.bbaw.de/bbaw/Forschung/Forschungsprojekte/mega/de/Startseite
+attributes: {"href":"../../bbaw/Forschung/Forschungsprojekte/mega/de/Startseite"}
+
+target: http://www.bbaw.de/bbaw/Forschung/Forschungsprojekte/pmbz/de/Startseite
+attributes: {"href":"../../bbaw/Forschung/Forschungsprojekte/pmbz/de/Startseite"}
+
+target: http://www.bbaw.de/bbaw/Forschung/Forschungsprojekte/dwds/de/Startseite
+attributes: {"href":"../../bbaw/Forschung/Forschungsprojekte/dwds/de/Startseite"}
+
+target: http://www.bbaw.de/bbaw/Forschung/Forschungsprojekte/cvma/de/Startseite
+attributes: {"href":"../../bbaw/Forschung/Forschungsprojekte/cvma/de/Startseite"}
+
+target: http://www.bbaw.de/telota/projekte/digitale_editionen
+attributes: {"class":"more","href":"/telota/projekte/digitale_editionen","target":"_self"}
+
+target: http://www.bbaw.de/bbaw/Forschung/Forschungsprojekte/altaegyptwb/de/Startseite
+attributes: {"href":"../../bbaw/Forschung/Forschungsprojekte/altaegyptwb/de/Startseite"}
+
+target: http://www.bbaw.de/bbaw/Forschung/Forschungsprojekte/altaegyptwb/de/Startseite
+attributes: {"href":"../../bbaw/Forschung/Forschungsprojekte/altaegyptwb/de/Startseite"}
+
+target: http://www.bbaw.de/bbaw/Forschung/Forschungsprojekte/altaegyptwb/de/Startseite
+attributes: {"href":"../../bbaw/Forschung/Forschungsprojekte/altaegyptwb/de/Startseite"}
+
+target: http://www.bbaw.de/bbaw/Forschung/Forschungsprojekte/altaegyptwb/de/Startseite
+attributes: {"href":"../../bbaw/Forschung/Forschungsprojekte/altaegyptwb/de/Startseite"}
+
+target: http://www.bbaw.de/bbaw/Forschung/Forschungsprojekte/gcs/de/Startseite
+attributes: {"href":"../../bbaw/Forschung/Forschungsprojekte/gcs/de/Startseite"}
+
+target: http://www.bbaw.de/bbaw/Forschung/Forschungsprojekte/leibniz_berlin/de/Startseite
+attributes: {"href":"../../bbaw/Forschung/Forschungsprojekte/leibniz_berlin/de/Startseite"}
+
+target: http://www.bbaw.de/bbaw/Forschung/Forschungsprojekte/turfanforschung/de/Startseite
+attributes: {"href":"../../bbaw/Forschung/Forschungsprojekte/turfanforschung/de/Startseite"}
+
+target: http://www.bbaw.de/bbaw/Forschung/Forschungsprojekte/mega/de/Startseite
+attributes: {"href":"../../bbaw/Forschung/Forschungsprojekte/mega/de/Startseite"}
+
+target: http://www.bbaw.de/bbaw/Forschung/Forschungsprojekte/pmbz/de/Startseite
+attributes: {"href":"../../bbaw/Forschung/Forschungsprojekte/pmbz/de/Startseite"}
+
+target: http://www.bbaw.de/bbaw/Forschung/Forschungsprojekte/dwds/de/Startseite
+attributes: {"href":"../../bbaw/Forschung/Forschungsprojekte/dwds/de/Startseite"}
+
+target: http://www.bbaw.de/bbaw/Forschung/Forschungsprojekte/cvma/de/Startseite
+attributes: {"href":"../../bbaw/Forschung/Forschungsprojekte/cvma/de/Startseite"}
+
+target: http://www.bbaw.de/bbaw/Forschung/Forschungsprojekte/mega/de/Startseite
+attributes: {"href":"../../bbaw/Forschung/Forschungsprojekte/mega/de/Startseite"}
+
+target: http://www.bbaw.de/telota/projekte/digitale_editionen
+attributes: {"class":"more","href":"/telota/projekte/digitale_editionen","target":"_self"}
+
+target: http://www.bbaw.de/telota/projekte/digitale_editionen
+attributes: {"class":"more","href":"/telota/projekte/digitale_editionen","target":"_self"}
+
+target: http://www.bbaw.de/telota/projekte/digitale_editionen
+attributes: {"class":"more","href":"/telota/projekte/digitale_editionen","target":"_self"}
+
+###################################################################
+http://www.bbaw.de/service/publikationen-bestellen/
+###################################################################
+target: http://www.bbaw.de/publikationen/debatten/debatte-10/at_download/file
+attributes: {"href":"http://www.bbaw.de/publikationen/debatten/debatte-10/at_download/file"}
+
+target: http://www.bbaw.de/publikationen/debatten/debatte11
+attributes: {"href":"http://www.bbaw.de/publikationen/debatten/debatte11"}
+
+target: http://www.bbaw.de/publikationen/neuerscheinungen/pdf-dateien/broschuere-zukunft-mit-kindern
+attributes: {"href":"http://www.bbaw.de/publikationen/neuerscheinungen/pdf-dateien/broschuere-zukunft-mit-kindern"}
+
+target: http://www.bbaw.de/publikationen/debatten/debatte-10/at_download/file
+attributes: {"href":"http://www.bbaw.de/publikationen/debatten/debatte-10/at_download/file"}
+
+target: http://www.bbaw.de/publikationen/debatten/debatte11
+attributes: {"href":"http://www.bbaw.de/publikationen/debatten/debatte11"}
+
+target: http://www.bbaw.de/publikationen/neuerscheinungen/pdf-dateien/broschuere-zukunft-mit-kindern
+attributes: {"href":"http://www.bbaw.de/publikationen/neuerscheinungen/pdf-dateien/broschuere-zukunft-mit-kindern"}
+
+###################################################################
+http://www.bbaw.de/en/telota/resources/
+###################################################################
+target: http://www.bbaw.de/en/telota/resources/javascript: adFormLine ('queryLine1');
+attributes: {"href":"javascript: adFormLine ('queryLine1');"}
+
+target: http://www.bbaw.de/en/telota/resources/javascript: adFormLine ('queryLine1');
+attributes: {"href":"javascript: adFormLine ('queryLine1');"}
+
+###################################################################
+http://www.bbaw.de/die-akademie/mitglieder/
+###################################################################
+target: http://www.bbaw.de/die-akademie/mitglieder/http://www.bbaw.de/die-akademie/mitglieder/sortierung-nach-klassen?klasse=GW
+attributes: {"href":" http://www.bbaw.de/die-akademie/mitglieder/sortierung-nach-klassen?klasse=GW","class":"alphabet date current"}
+
+target: http://www.bbaw.de/die-akademie/mitglieder/http://www.bbaw.de/die-akademie/mitglieder/sortierung-nach-klassen?klasse=SW
+attributes: {"href":" http://www.bbaw.de/die-akademie/mitglieder/sortierung-nach-klassen?klasse=SW","class":"alphabet date"}
+
+target: http://www.bbaw.de/die-akademie/mitglieder/http://www.bbaw.de/die-akademie/mitglieder/sortierung-nach-klassen?klasse=M-NW
+attributes: {"href":" http://www.bbaw.de/die-akademie/mitglieder/sortierung-nach-klassen?klasse=M-NW","class":"alphabet date"}
+
+target: http://www.bbaw.de/die-akademie/mitglieder/http://www.bbaw.de/die-akademie/mitglieder/sortierung-nach-klassen?klasse=BW-M
+attributes: {"href":" http://www.bbaw.de/die-akademie/mitglieder/sortierung-nach-klassen?klasse=BW-M","class":"alphabet date"}
+
+target: http://www.bbaw.de/die-akademie/mitglieder/http://www.bbaw.de/die-akademie/mitglieder/sortierung-nach-klassen?klasse=TW
+attributes: {"href":" http://www.bbaw.de/die-akademie/mitglieder/sortierung-nach-klassen?klasse=TW","class":"alphabet date"}
+
+target: http://www.bbaw.de/die-akademie/mitglieder/www.bzh.uni-heidelberg.de/sinning
+attributes: {"class":"more","href":"www.bzh.uni-heidelberg.de/sinning"}
+
+target: http://www.bbaw.de/die-akademie/mitglieder/http://www.bbaw.de/die-akademie/mitglieder/sortierung-nach-klassen?klasse=GW
+attributes: {"href":" http://www.bbaw.de/die-akademie/mitglieder/sortierung-nach-klassen?klasse=GW","class":"alphabet date current"}
+
+target: http://www.bbaw.de/die-akademie/mitglieder/http://www.bbaw.de/die-akademie/mitglieder/sortierung-nach-klassen?klasse=SW
+attributes: {"href":" http://www.bbaw.de/die-akademie/mitglieder/sortierung-nach-klassen?klasse=SW","class":"alphabet date"}
+
+target: http://www.bbaw.de/die-akademie/mitglieder/http://www.bbaw.de/die-akademie/mitglieder/sortierung-nach-klassen?klasse=M-NW
+attributes: {"href":" http://www.bbaw.de/die-akademie/mitglieder/sortierung-nach-klassen?klasse=M-NW","class":"alphabet date"}
+
+target: http://www.bbaw.de/die-akademie/mitglieder/http://www.bbaw.de/die-akademie/mitglieder/sortierung-nach-klassen?klasse=BW-M
+attributes: {"href":" http://www.bbaw.de/die-akademie/mitglieder/sortierung-nach-klassen?klasse=BW-M","class":"alphabet date"}
+
+target: http://www.bbaw.de/die-akademie/mitglieder/http://www.bbaw.de/die-akademie/mitglieder/sortierung-nach-klassen?klasse=TW
+attributes: {"href":" http://www.bbaw.de/die-akademie/mitglieder/sortierung-nach-klassen?klasse=TW","class":"alphabet date"}
+
+target: http://www.bbaw.de/die-akademie/mitglieder/http://www.bbaw.de/die-akademie/mitglieder/sortierung-nach-klassen?klasse=GW
+attributes: {"href":" http://www.bbaw.de/die-akademie/mitglieder/sortierung-nach-klassen?klasse=GW","class":"alphabet date current"}
+
+target: http://www.bbaw.de/die-akademie/mitglieder/http://www.bbaw.de/die-akademie/mitglieder/sortierung-nach-klassen?klasse=SW
+attributes: {"href":" http://www.bbaw.de/die-akademie/mitglieder/sortierung-nach-klassen?klasse=SW","class":"alphabet date"}
+
+target: http://www.bbaw.de/die-akademie/mitglieder/http://www.bbaw.de/die-akademie/mitglieder/sortierung-nach-klassen?klasse=M-NW
+attributes: {"href":" http://www.bbaw.de/die-akademie/mitglieder/sortierung-nach-klassen?klasse=M-NW","class":"alphabet date"}
+
+target: http://www.bbaw.de/die-akademie/mitglieder/http://www.bbaw.de/die-akademie/mitglieder/sortierung-nach-klassen?klasse=BW-M
+attributes: {"href":" http://www.bbaw.de/die-akademie/mitglieder/sortierung-nach-klassen?klasse=BW-M","class":"alphabet date"}
+
+target: http://www.bbaw.de/die-akademie/mitglieder/http://www.bbaw.de/die-akademie/mitglieder/sortierung-nach-klassen?klasse=TW
+attributes: {"href":" http://www.bbaw.de/die-akademie/mitglieder/sortierung-nach-klassen?klasse=TW","class":"alphabet date"}
+
+target: http://www.bbaw.de/die-akademie/mitglieder/http://www.bbaw.de/die-akademie/mitglieder/sortierung-nach-klassen?klasse=GW
+attributes: {"href":" http://www.bbaw.de/die-akademie/mitglieder/sortierung-nach-klassen?klasse=GW","class":"alphabet date"}
+
+target: http://www.bbaw.de/die-akademie/mitglieder/http://www.bbaw.de/die-akademie/mitglieder/sortierung-nach-klassen?klasse=SW
+attributes: {"href":" http://www.bbaw.de/die-akademie/mitglieder/sortierung-nach-klassen?klasse=SW","class":"alphabet date current"}
+
+target: http://www.bbaw.de/die-akademie/mitglieder/http://www.bbaw.de/die-akademie/mitglieder/sortierung-nach-klassen?klasse=M-NW
+attributes: {"href":" http://www.bbaw.de/die-akademie/mitglieder/sortierung-nach-klassen?klasse=M-NW","class":"alphabet date"}
+
+target: http://www.bbaw.de/die-akademie/mitglieder/http://www.bbaw.de/die-akademie/mitglieder/sortierung-nach-klassen?klasse=BW-M
+attributes: {"href":" http://www.bbaw.de/die-akademie/mitglieder/sortierung-nach-klassen?klasse=BW-M","class":"alphabet date"}
+
+target: http://www.bbaw.de/die-akademie/mitglieder/http://www.bbaw.de/die-akademie/mitglieder/sortierung-nach-klassen?klasse=TW
+attributes: {"href":" http://www.bbaw.de/die-akademie/mitglieder/sortierung-nach-klassen?klasse=TW","class":"alphabet date"}
+
+target: http://www.bbaw.de/die-akademie/mitglieder/http://www.bbaw.de/die-akademie/mitglieder/sortierung-nach-klassen?klasse=GW
+attributes: {"href":" http://www.bbaw.de/die-akademie/mitglieder/sortierung-nach-klassen?klasse=GW","class":"alphabet date"}
+
+target: http://www.bbaw.de/die-akademie/mitglieder/http://www.bbaw.de/die-akademie/mitglieder/sortierung-nach-klassen?klasse=SW
+attributes: {"href":" http://www.bbaw.de/die-akademie/mitglieder/sortierung-nach-klassen?klasse=SW","class":"alphabet date"}
+
+target: http://www.bbaw.de/die-akademie/mitglieder/http://www.bbaw.de/die-akademie/mitglieder/sortierung-nach-klassen?klasse=M-NW
+attributes: {"href":" http://www.bbaw.de/die-akademie/mitglieder/sortierung-nach-klassen?klasse=M-NW","class":"alphabet date current"}
+
+target: http://www.bbaw.de/die-akademie/mitglieder/http://www.bbaw.de/die-akademie/mitglieder/sortierung-nach-klassen?klasse=BW-M
+attributes: {"href":" http://www.bbaw.de/die-akademie/mitglieder/sortierung-nach-klassen?klasse=BW-M","class":"alphabet date"}
+
+target: http://www.bbaw.de/die-akademie/mitglieder/http://www.bbaw.de/die-akademie/mitglieder/sortierung-nach-klassen?klasse=TW
+attributes: {"href":" http://www.bbaw.de/die-akademie/mitglieder/sortierung-nach-klassen?klasse=TW","class":"alphabet date"}
+
+target: http://www.bbaw.de/die-akademie/mitglieder/http://www.bbaw.de/die-akademie/mitglieder/sortierung-nach-klassen?klasse=GW
+attributes: {"href":" http://www.bbaw.de/die-akademie/mitglieder/sortierung-nach-klassen?klasse=GW","class":"alphabet date"}
+
+target: http://www.bbaw.de/die-akademie/mitglieder/http://www.bbaw.de/die-akademie/mitglieder/sortierung-nach-klassen?klasse=SW
+attributes: {"href":" http://www.bbaw.de/die-akademie/mitglieder/sortierung-nach-klassen?klasse=SW","class":"alphabet date"}
+
+target: http://www.bbaw.de/die-akademie/mitglieder/http://www.bbaw.de/die-akademie/mitglieder/sortierung-nach-klassen?klasse=M-NW
+attributes: {"href":" http://www.bbaw.de/die-akademie/mitglieder/sortierung-nach-klassen?klasse=M-NW","class":"alphabet date"}
+
+target: http://www.bbaw.de/die-akademie/mitglieder/http://www.bbaw.de/die-akademie/mitglieder/sortierung-nach-klassen?klasse=BW-M
+attributes: {"href":" http://www.bbaw.de/die-akademie/mitglieder/sortierung-nach-klassen?klasse=BW-M","class":"alphabet date current"}
+
+target: http://www.bbaw.de/die-akademie/mitglieder/http://www.bbaw.de/die-akademie/mitglieder/sortierung-nach-klassen?klasse=TW
+attributes: {"href":" http://www.bbaw.de/die-akademie/mitglieder/sortierung-nach-klassen?klasse=TW","class":"alphabet date"}
+
+target: http://www.bbaw.de/die-akademie/mitglieder/http://www.bbaw.de/die-akademie/mitglieder/sortierung-nach-klassen?klasse=GW
+attributes: {"href":" http://www.bbaw.de/die-akademie/mitglieder/sortierung-nach-klassen?klasse=GW","class":"alphabet date"}
+
+target: http://www.bbaw.de/die-akademie/mitglieder/http://www.bbaw.de/die-akademie/mitglieder/sortierung-nach-klassen?klasse=SW
+attributes: {"href":" http://www.bbaw.de/die-akademie/mitglieder/sortierung-nach-klassen?klasse=SW","class":"alphabet date"}
+
+target: http://www.bbaw.de/die-akademie/mitglieder/http://www.bbaw.de/die-akademie/mitglieder/sortierung-nach-klassen?klasse=M-NW
+attributes: {"href":" http://www.bbaw.de/die-akademie/mitglieder/sortierung-nach-klassen?klasse=M-NW","class":"alphabet date"}
+
+target: http://www.bbaw.de/die-akademie/mitglieder/http://www.bbaw.de/die-akademie/mitglieder/sortierung-nach-klassen?klasse=BW-M
+attributes: {"href":" http://www.bbaw.de/die-akademie/mitglieder/sortierung-nach-klassen?klasse=BW-M","class":"alphabet date"}
+
+target: http://www.bbaw.de/die-akademie/mitglieder/http://www.bbaw.de/die-akademie/mitglieder/sortierung-nach-klassen?klasse=TW
+attributes: {"href":" http://www.bbaw.de/die-akademie/mitglieder/sortierung-nach-klassen?klasse=TW","class":"alphabet date current"}
+
+###################################################################
+http://www.bbaw.de/die-akademie/praesidium-und-gremien/
+###################################################################
+target: http://www.bbaw.de/die-akademie/mitarbeiter/schubert
+attributes: {"href":"/die-akademie/mitarbeiter/schubert"}
+
+target: http://www.bbaw.de/die-akademie/mitarbeiter/schubert
+attributes: {"href":"/die-akademie/mitarbeiter/schubert"}
+
+###################################################################
+http://www.bbaw.de/forschung/pir/
+###################################################################
+target: http://www.bbaw.de/forschung/pir/http://pir.bbaw.de
+attributes: {"onfocus":"blur()","target":"_blank","href":" http://pir.bbaw.de","class":"kategorie noborder "}
+
+target: http://www.bbaw.de/forschung/pir/http://pir.bbaw.de
+attributes: {"onfocus":"blur()","target":"_blank","href":" http://pir.bbaw.de","class":"kategorie noborder "}
+
+target: http://www.bbaw.de/forschung/pir/http://pir.bbaw.de
+attributes: {"onfocus":"blur()","target":"_blank","href":" http://pir.bbaw.de","class":"kategorie noborder "}
+
+target: http://www.bbaw.de/forschung/pir/http://pir.bbaw.de
+attributes: {"onfocus":"blur()","target":"_blank","href":" http://pir.bbaw.de","class":"kategorie noborder "}
+
+target: http://www.bbaw.de/forschung/pir/http://pir.bbaw.de
+attributes: {"onfocus":"blur()","target":"_blank","href":" http://pir.bbaw.de","class":"kategorie noborder "}
+
+###################################################################
+http://www.bbaw.de/veranstaltungen/2015/
+###################################################################
+target: http://www.bbaw.de/veranstaltungen/2015/november/commerzbankpreis
+attributes: {"class":"summary event_type","href":"http://www.bbaw.de/veranstaltungen/2015/november/commerzbankpreis"}
+
+target: http://www.bbaw.de/veranstaltungen/2015/november/commerzbankpreis
+attributes: {"class":"summary event_type","href":"http://www.bbaw.de/veranstaltungen/2015/november/commerzbankpreis"}
+
+target: http://www.bbaw.de/veranstaltungen/2015/november/commerzbankpreis
+attributes: {"class":"summary event_title","href":"http://www.bbaw.de/veranstaltungen/2015/november/commerzbankpreis"}
+
+target: http://www.bbaw.de/veranstaltungen/2015/november/commerzbankpreis
+attributes: {"class":"more","href":"http://www.bbaw.de/veranstaltungen/2015/november/commerzbankpreis"}
+
+###################################################################
+http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/
+###################################################################
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004?jahr=2009
+attributes: {"class":"alphabet date current","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004?jahr=2009"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004?jahr=2008
+attributes: {"class":"alphabet date","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004?jahr=2008"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004?jahr=2007
+attributes: {"class":"alphabet date","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004?jahr=2007"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004?jahr=2006
+attributes: {"class":"alphabet date","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004?jahr=2006"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004?jahr=2005
+attributes: {"class":"alphabet date","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004?jahr=2005"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004?jahr=2004
+attributes: {"class":"alphabet date","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004?jahr=2004"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=940
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=940"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:senne@bbaw.de
+attributes: {"class":"more","href":" mailto:senne@bbaw.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1113
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1113"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:ann.muller@mae.etat.lu
+attributes: {"class":"more","href":" mailto:ann.muller@mae.etat.lu"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1082
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1082"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1052
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1052"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1055
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1055"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1020
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1020"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1101
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1101"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1117
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1117"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1019
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1019"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1018
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1018"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1118
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1118"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:hermannstaedter@bbaw.de
+attributes: {"class":"more","href":" mailto:hermannstaedter@bbaw.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1126
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1126"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:wittwer@bbaw.de
+attributes: {"class":"more","href":" mailto:wittwer@bbaw.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1035
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1035"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1131
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1131"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:zeit-forum@vf-holtzbrinck.de
+attributes: {"class":"more","href":" mailto:zeit-forum@vf-holtzbrinck.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1083
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1083"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1036
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1036"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1037
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1037"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1135
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1135"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1107
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1107"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:becker@bbaw.de
+attributes: {"class":"more","href":" mailto:becker@bbaw.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1136
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1136"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:bildwissenschaft@bbaw.de
+attributes: {"class":"more","href":" mailto:bildwissenschaft@bbaw.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1038
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1038"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:georges.khalil@wiko-berlin.de
+attributes: {"class":"more","href":" mailto:georges.khalil@wiko-berlin.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1021
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1021"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:hoenig@akademienunion-berlin.de
+attributes: {"class":"more","href":" mailto:hoenig@akademienunion-berlin.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1137
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1137"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1133
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1133"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1157
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1157"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:skiebe@zedat.fu-berlin.de
+attributes: {"class":"more","href":" mailto:skiebe@zedat.fu-berlin.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1122
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1122"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1039
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1039"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1140
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1140"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:mail@assc13.com
+attributes: {"class":"more","href":" mailto:mail@assc13.com"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1004
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1004"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:mikosch@bbaw.de
+attributes: {"class":"more","href":" mailto:mikosch@bbaw.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1040
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1040"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1115
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1115"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:haedrich@diejungeakademie.de
+attributes: {"class":"more","href":" mailto:haedrich@diejungeakademie.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=960
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=960"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:festsitzung@bbaw.de
+attributes: {"class":"more","href":" mailto:festsitzung@bbaw.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1165
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1165"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:office@diejungeakademie.de
+attributes: {"class":"more","href":" mailto:office@diejungeakademie.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1160
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1160"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1158
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1158"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1134
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1134"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1141
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1141"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:jentsch@diejungeakademie.de
+attributes: {"class":"more","href":" mailto:jentsch@diejungeakademie.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1142
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1142"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:dwb@bbaw.de
+attributes: {"class":"more","href":" mailto:dwb@bbaw.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1182
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1182"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1114
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1114"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1167
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1167"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:johannes.bluemlein@desy.de
+attributes: {"class":"more","href":" mailto:johannes.bluemlein@desy.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1188
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1188"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:pabulei@yahoo.de
+attributes: {"class":"more","href":" mailto:pabulei@yahoo.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1189
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1189"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1171
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1171"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1186
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1186"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1143
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1143"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1170
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1170"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1203
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1203"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:sabine.schulz@rz.hu-berlin.de
+attributes: {"class":"more","href":" mailto:sabine.schulz@rz.hu-berlin.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1144
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1144"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1202
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1202"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:lerch@bbaw.de
+attributes: {"class":"more","href":" mailto:lerch@bbaw.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1183
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1183"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:bildkulturen@bbaw.de
+attributes: {"class":"more","href":" mailto:bildkulturen@bbaw.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1215
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1215"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:li@bbaw.de
+attributes: {"class":"more","href":" mailto:li@bbaw.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1185
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1185"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1166
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1166"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1206
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1206"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:hafemann@bbaw.de
+attributes: {"class":"more","href":" mailto:hafemann@bbaw.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=965
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=965"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:nickel@bbaw.de
+attributes: {"class":"more","href":" mailto:nickel@bbaw.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:motschmann@bbaw.de
+attributes: {"class":"more","href":" mailto:motschmann@bbaw.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1145
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1145"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1196
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1196"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1223
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1223"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1180
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1180"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1181
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1181"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1224
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1224"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:kranz@bbaw.de
+attributes: {"class":"more","href":" mailto:kranz@bbaw.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1205
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1205"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1146
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1146"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1207
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1207"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1204
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1204"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004?jahr=2009
+attributes: {"class":"alphabet date current","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004?jahr=2009"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004?jahr=2008
+attributes: {"class":"alphabet date","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004?jahr=2008"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004?jahr=2007
+attributes: {"class":"alphabet date","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004?jahr=2007"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004?jahr=2006
+attributes: {"class":"alphabet date","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004?jahr=2006"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004?jahr=2005
+attributes: {"class":"alphabet date","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004?jahr=2005"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004?jahr=2004
+attributes: {"class":"alphabet date","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004?jahr=2004"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=940
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=940"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:senne@bbaw.de
+attributes: {"class":"more","href":" mailto:senne@bbaw.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1113
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1113"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:ann.muller@mae.etat.lu
+attributes: {"class":"more","href":" mailto:ann.muller@mae.etat.lu"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1082
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1082"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:senne@bbaw.de
+attributes: {"class":"more","href":" mailto:senne@bbaw.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1052
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1052"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:senne@bbaw.de
+attributes: {"class":"more","href":" mailto:senne@bbaw.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1055
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1055"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:senne@bbaw.de
+attributes: {"class":"more","href":" mailto:senne@bbaw.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1020
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1020"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:senne@bbaw.de
+attributes: {"class":"more","href":" mailto:senne@bbaw.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1101
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1101"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:senne@bbaw.de
+attributes: {"class":"more","href":" mailto:senne@bbaw.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1117
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1117"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:senne@bbaw.de
+attributes: {"class":"more","href":" mailto:senne@bbaw.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1019
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1019"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:senne@bbaw.de
+attributes: {"class":"more","href":" mailto:senne@bbaw.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1018
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1018"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:senne@bbaw.de
+attributes: {"class":"more","href":" mailto:senne@bbaw.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1118
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1118"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:hermannstaedter@bbaw.de
+attributes: {"class":"more","href":" mailto:hermannstaedter@bbaw.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1126
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1126"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:wittwer@bbaw.de
+attributes: {"class":"more","href":" mailto:wittwer@bbaw.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1035
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1035"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:senne@bbaw.de
+attributes: {"class":"more","href":" mailto:senne@bbaw.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1131
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1131"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:zeit-forum@vf-holtzbrinck.de
+attributes: {"class":"more","href":" mailto:zeit-forum@vf-holtzbrinck.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1083
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1083"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:senne@bbaw.de
+attributes: {"class":"more","href":" mailto:senne@bbaw.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1036
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1036"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:senne@bbaw.de
+attributes: {"class":"more","href":" mailto:senne@bbaw.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1037
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1037"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:senne@bbaw.de
+attributes: {"class":"more","href":" mailto:senne@bbaw.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1135
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1135"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:senne@bbaw.de
+attributes: {"class":"more","href":" mailto:senne@bbaw.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1107
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1107"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:becker@bbaw.de
+attributes: {"class":"more","href":" mailto:becker@bbaw.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1136
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1136"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:bildwissenschaft@bbaw.de
+attributes: {"class":"more","href":" mailto:bildwissenschaft@bbaw.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1038
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1038"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:senne@bbaw.de
+attributes: {"class":"more","href":" mailto:senne@bbaw.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:georges.khalil@wiko-berlin.de
+attributes: {"class":"more","href":" mailto:georges.khalil@wiko-berlin.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1021
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1021"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:hoenig@akademienunion-berlin.de
+attributes: {"class":"more","href":" mailto:hoenig@akademienunion-berlin.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1137
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1137"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:hoenig@akademienunion-berlin.de
+attributes: {"class":"more","href":" mailto:hoenig@akademienunion-berlin.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1133
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1133"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:senne@bbaw.de
+attributes: {"class":"more","href":" mailto:senne@bbaw.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1157
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1157"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:skiebe@zedat.fu-berlin.de
+attributes: {"class":"more","href":" mailto:skiebe@zedat.fu-berlin.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1122
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1122"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:hermannstaedter@bbaw.de
+attributes: {"class":"more","href":" mailto:hermannstaedter@bbaw.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1039
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1039"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:senne@bbaw.de
+attributes: {"class":"more","href":" mailto:senne@bbaw.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1140
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1140"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:mail@assc13.com
+attributes: {"class":"more","href":" mailto:mail@assc13.com"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1004
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1004"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:mikosch@bbaw.de
+attributes: {"class":"more","href":" mailto:mikosch@bbaw.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1040
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1040"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:senne@bbaw.de
+attributes: {"class":"more","href":" mailto:senne@bbaw.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1115
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1115"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:haedrich@diejungeakademie.de
+attributes: {"class":"more","href":" mailto:haedrich@diejungeakademie.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=960
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=960"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:festsitzung@bbaw.de
+attributes: {"class":"more","href":" mailto:festsitzung@bbaw.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1165
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1165"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:office@diejungeakademie.de
+attributes: {"class":"more","href":" mailto:office@diejungeakademie.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1160
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1160"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:zeit-forum@vf-holtzbrinck.de
+attributes: {"class":"more","href":" mailto:zeit-forum@vf-holtzbrinck.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1158
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1158"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:senne@bbaw.de
+attributes: {"class":"more","href":" mailto:senne@bbaw.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1134
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1134"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:senne@bbaw.de
+attributes: {"class":"more","href":" mailto:senne@bbaw.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1141
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1141"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:hermannstaedter@bbaw.de
+attributes: {"class":"more","href":" mailto:hermannstaedter@bbaw.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:jentsch@diejungeakademie.de
+attributes: {"class":"more","href":" mailto:jentsch@diejungeakademie.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1142
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1142"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:dwb@bbaw.de
+attributes: {"class":"more","href":" mailto:dwb@bbaw.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1182
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1182"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:mikosch@bbaw.de
+attributes: {"class":"more","href":" mailto:mikosch@bbaw.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1114
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1114"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:senne@bbaw.de
+attributes: {"class":"more","href":" mailto:senne@bbaw.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1167
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1167"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:johannes.bluemlein@desy.de
+attributes: {"class":"more","href":" mailto:johannes.bluemlein@desy.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1188
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1188"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:pabulei@yahoo.de
+attributes: {"class":"more","href":" mailto:pabulei@yahoo.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1189
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1189"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:pabulei@yahoo.de
+attributes: {"class":"more","href":" mailto:pabulei@yahoo.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1171
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1171"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:senne@bbaw.de
+attributes: {"class":"more","href":" mailto:senne@bbaw.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1186
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1186"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:zeit-forum@vf-holtzbrinck.de
+attributes: {"class":"more","href":" mailto:zeit-forum@vf-holtzbrinck.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1143
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1143"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:hermannstaedter@bbaw.de
+attributes: {"class":"more","href":" mailto:hermannstaedter@bbaw.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1170
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1170"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:senne@bbaw.de
+attributes: {"class":"more","href":" mailto:senne@bbaw.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1203
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1203"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:sabine.schulz@rz.hu-berlin.de
+attributes: {"class":"more","href":" mailto:sabine.schulz@rz.hu-berlin.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1144
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1144"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:hermannstaedter@bbaw.de
+attributes: {"class":"more","href":" mailto:hermannstaedter@bbaw.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1202
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1202"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:lerch@bbaw.de
+attributes: {"class":"more","href":" mailto:lerch@bbaw.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1183
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1183"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:bildkulturen@bbaw.de
+attributes: {"class":"more","href":" mailto:bildkulturen@bbaw.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1215
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1215"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:li@bbaw.de
+attributes: {"class":"more","href":" mailto:li@bbaw.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1185
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1185"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:senne@bbaw.de
+attributes: {"class":"more","href":" mailto:senne@bbaw.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1166
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1166"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:hermannstaedter@bbaw.de
+attributes: {"class":"more","href":" mailto:hermannstaedter@bbaw.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1206
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1206"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:hafemann@bbaw.de
+attributes: {"class":"more","href":" mailto:hafemann@bbaw.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=965
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=965"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:nickel@bbaw.de
+attributes: {"class":"more","href":" mailto:nickel@bbaw.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:motschmann@bbaw.de
+attributes: {"class":"more","href":" mailto:motschmann@bbaw.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1145
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1145"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:hermannstaedter@bbaw.de
+attributes: {"class":"more","href":" mailto:hermannstaedter@bbaw.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1196
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1196"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:senne@bbaw.de
+attributes: {"class":"more","href":" mailto:senne@bbaw.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1223
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1223"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:zeit-forum@vf-holtzbrinck.de
+attributes: {"class":"more","href":" mailto:zeit-forum@vf-holtzbrinck.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1180
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1180"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:senne@bbaw.de
+attributes: {"class":"more","href":" mailto:senne@bbaw.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1181
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1181"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:senne@bbaw.de
+attributes: {"class":"more","href":" mailto:senne@bbaw.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1224
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1224"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:kranz@bbaw.de
+attributes: {"class":"more","href":" mailto:kranz@bbaw.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1205
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1205"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:senne@bbaw.de
+attributes: {"class":"more","href":" mailto:senne@bbaw.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1146
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1146"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:hermannstaedter@bbaw.de
+attributes: {"class":"more","href":" mailto:hermannstaedter@bbaw.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1207
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1207"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:hermannstaedter@bbaw.de
+attributes: {"class":"more","href":" mailto:hermannstaedter@bbaw.de"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1204
+attributes: {"class":"weitere","href":" http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/rueckblick-2009-2004/?terminid=1204"}
+
+target: http://www.bbaw.de/veranstaltungen/rueckblick-2009-2004/mailto:hermannstaedter@bbaw.de
+attributes: {"class":"more","href":" mailto:hermannstaedter@bbaw.de"}
+
+###################################################################
+http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2014/
+###################################################################
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2014/www.leopoldina.org
+attributes: {"class":"more","href":"www.leopoldina.org"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2014/www.acatech.de
+attributes: {"class":"more","href":"www.acatech.de"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2014/www.akademienunion.de
+attributes: {"class":"more","href":"www.akademienunion.de"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2014/www.leopoldina.org
+attributes: {"class":"more","href":"www.leopoldina.org"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2014/www.acatech.de
+attributes: {"class":"more","href":"www.acatech.de"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2014/www.akademienunion.de
+attributes: {"class":"more","href":"www.akademienunion.de"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2014/www.europe-unlimited.eu
+attributes: {"href":"www.europe-unlimited.eu","class":"more"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2014/www.leopoldina.org
+attributes: {"class":"more","href":"www.leopoldina.org"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2014/www.acatech.de
+attributes: {"class":"more","href":"www.acatech.de"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2014/www.akademienunion.de
+attributes: {"class":"more","href":"www.akademienunion.de"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2014/www.bbaw.de
+attributes: {"href":"www.bbaw.de","class":"more"}
+
+###################################################################
+http://www.bbaw.de/veranstaltungen/2016/september/
+###################################################################
+target: http://www.bbaw.de/veranstaltungen/2016/september/www2.bbaw.de/anmeldung-humboldt-tag
+attributes: {"class":"more","href":"/veranstaltungen/2016/september/www2.bbaw.de/anmeldung-humboldt-tag"}
+
+target: http://www.bbaw.de/veranstaltungen/2016/september/www2.bbaw.de/anmeldung-humboldt-tag
+attributes: {"class":"more","href":"/veranstaltungen/2016/september/www2.bbaw.de/anmeldung-humboldt-tag"}
+
+###################################################################
+http://www.bbaw.de/telota/aktuelles/
+###################################################################
+target: http://www.bbaw.de/bbaw/Forschung/Forschungsprojekte/altaegyptwb/de/Startseite
+attributes: {"href":"../../bbaw/Forschung/Forschungsprojekte/altaegyptwb/de/Startseite"}
+
+target: http://www.bbaw.de/telota/telota-lab/telota-werkstatt-2
+attributes: {"target":"_self","href":"../telota-lab/telota-werkstatt-2","title":"Telota-Werkstatt-2"}
+
+target: http://www.bbaw.de/telota/aktuelles/abstracts_edworkshop/rapp_burch
+attributes: {"title":"Rapp_Burch","href":"abstracts_edworkshop/rapp_burch","target":"_self","class":"more"}
+
+target: http://www.bbaw.de/telota/aktuelles/abstracts_edworkshop/duntze_fritze
+attributes: {"title":"Duntze_Fritze","href":"abstracts_edworkshop/duntze_fritze","target":"_self","class":"more"}
+
+target: http://www.bbaw.de/telota/aktuelles/abstracts_edworkshop/assmann_fischer_sahle
+attributes: {"title":"Assmann_Fischer_Sahle","href":"abstracts_edworkshop/assmann_fischer_sahle","target":"_self","class":"more"}
+
+target: http://www.bbaw.de/telota/aktuelles/abstracts_edworkshop/schuetz_ritter
+attributes: {"title":"Schuetz_Ritter","href":"abstracts_edworkshop/schuetz_ritter","target":"_self","class":"more"}
+
+target: http://www.bbaw.de/telota/aktuelles/abstracts_edworkshop/lukas_recker_hamm
+attributes: {"title":"Lukas_Recker_Hamm","href":"abstracts_edworkshop/lukas_recker_hamm","target":"_self","class":"more"}
+
+target: http://www.bbaw.de/telota/aktuelles/abstracts_edworkshop/buschmeier_veit
+attributes: {"title":"Buschmeier_Veit","href":"abstracts_edworkshop/buschmeier_veit","target":"_self","class":"more"}
+
+target: http://www.bbaw.de/telota/aktuelles/abstracts_edworkshop/hechthuemmer
+attributes: {"title":"HechtHuemmer","href":"abstracts_edworkshop/hechthuemmer","target":"_self","class":"more"}
+
+target: http://www.bbaw.de/telota/aktuelles/abstracts_edworkshop/Staub
+attributes: {"title":"Staub","href":"abstracts_edworkshop/Staub","target":"_self","class":"more"}
+
+target: http://www.bbaw.de/telota/aktuelles/telota-lab/telota-werkstatt
+attributes: {"target":"_self","href":"telota-lab/telota-werkstatt","title":"Werkstatt 1"}
+
+target: http://www.bbaw.de/bbaw/Forschung/Forschungsprojekte/altaegyptwb/de/Startseite
+attributes: {"href":"../../bbaw/Forschung/Forschungsprojekte/altaegyptwb/de/Startseite"}
+
+target: http://www.bbaw.de/telota/telota-lab/telota-werkstatt-2
+attributes: {"target":"_self","href":"../telota-lab/telota-werkstatt-2","title":"Telota-Werkstatt-2"}
+
+target: http://www.bbaw.de/telota/aktuelles/abstracts_edworkshop/rapp_burch
+attributes: {"title":"Rapp_Burch","href":"abstracts_edworkshop/rapp_burch","target":"_self","class":"more"}
+
+target: http://www.bbaw.de/telota/aktuelles/abstracts_edworkshop/duntze_fritze
+attributes: {"title":"Duntze_Fritze","href":"abstracts_edworkshop/duntze_fritze","target":"_self","class":"more"}
+
+target: http://www.bbaw.de/telota/aktuelles/abstracts_edworkshop/assmann_fischer_sahle
+attributes: {"title":"Assmann_Fischer_Sahle","href":"abstracts_edworkshop/assmann_fischer_sahle","target":"_self","class":"more"}
+
+target: http://www.bbaw.de/telota/aktuelles/abstracts_edworkshop/schuetz_ritter
+attributes: {"title":"Schuetz_Ritter","href":"abstracts_edworkshop/schuetz_ritter","target":"_self","class":"more"}
+
+target: http://www.bbaw.de/telota/aktuelles/abstracts_edworkshop/lukas_recker_hamm
+attributes: {"title":"Lukas_Recker_Hamm","href":"abstracts_edworkshop/lukas_recker_hamm","target":"_self","class":"more"}
+
+target: http://www.bbaw.de/telota/aktuelles/abstracts_edworkshop/buschmeier_veit
+attributes: {"title":"Buschmeier_Veit","href":"abstracts_edworkshop/buschmeier_veit","target":"_self","class":"more"}
+
+target: http://www.bbaw.de/telota/aktuelles/abstracts_edworkshop/hechthuemmer
+attributes: {"title":"HechtHuemmer","href":"abstracts_edworkshop/hechthuemmer","target":"_self","class":"more"}
+
+target: http://www.bbaw.de/telota/aktuelles/abstracts_edworkshop/Staub
+attributes: {"title":"Staub","href":"abstracts_edworkshop/Staub","target":"_self","class":"more"}
+
+target: http://www.bbaw.de/telota/aktuelles/telota-lab/telota-werkstatt
+attributes: {"target":"_self","href":"telota-lab/telota-werkstatt","title":"Werkstatt 1"}
+
+###################################################################
+http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2015/
+###################################################################
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2015/commerzbankpreis
+attributes: {"class":"more","href":"http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2015/commerzbankpreis"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2015/www.corpus-nummorum.eu
+attributes: {"class":"more","href":"www.corpus-nummorum.eu"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2015/peter@bbaw.de
+attributes: {"class":"more","href":"peter@bbaw.de"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2015/lerch@bbaw.de
+attributes: {"href":"/presse/pressemitteilungen/pressemitteilungen-2015/lerch@bbaw.de","class":"more"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2015/www.bbaw.de
+attributes: {"href":"/presse/pressemitteilungen/pressemitteilungen-2015/www.bbaw.de","class":"more"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/www.bbaw.de
+attributes: {"href":"/presse/pressemitteilungen/www.bbaw.de","class":"more"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2015/www.akademienunion.de
+attributes: {"class":"more","href":"/presse/pressemitteilungen/pressemitteilungen-2015/www.akademienunion.de"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2015/portal_factory/bbaw_pressemitteilung/lerch@bbaw.de
+attributes: {"class":"more","href":"/presse/pressemitteilungen/pressemitteilungen-2015/portal_factory/bbaw_pressemitteilung/lerch@bbaw.de"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2015/commerzbankpreis
+attributes: {"class":"more","href":"http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2015/commerzbankpreis"}
+
+###################################################################
+http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/
+###################################################################
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2009
+attributes: {"class":"alphabet date current","href":" http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2009"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2008
+attributes: {"class":"alphabet date","href":" http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2008"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2007
+attributes: {"class":"alphabet date","href":" http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2007"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2006
+attributes: {"class":"alphabet date","href":" http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2006"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2005
+attributes: {"class":"alphabet date","href":" http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2005"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2009
+attributes: {"class":"alphabet date current","href":" http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2009"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2008
+attributes: {"class":"alphabet date","href":" http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2008"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2007
+attributes: {"class":"alphabet date","href":" http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2007"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2006
+attributes: {"class":"alphabet date","href":" http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2006"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2005
+attributes: {"class":"alphabet date","href":" http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2005"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2009
+attributes: {"class":"alphabet date current","href":" http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2009"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2008
+attributes: {"class":"alphabet date","href":" http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2008"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2007
+attributes: {"class":"alphabet date","href":" http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2007"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2006
+attributes: {"class":"alphabet date","href":" http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2006"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2005
+attributes: {"class":"alphabet date","href":" http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2005"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2009
+attributes: {"class":"alphabet date current","href":" http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2009"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2008
+attributes: {"class":"alphabet date","href":" http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2008"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2007
+attributes: {"class":"alphabet date","href":" http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2007"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2006
+attributes: {"class":"alphabet date","href":" http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2006"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2005
+attributes: {"class":"alphabet date","href":" http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2005"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2009
+attributes: {"class":"alphabet date current","href":" http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2009"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2008
+attributes: {"class":"alphabet date","href":" http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2008"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2007
+attributes: {"class":"alphabet date","href":" http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2007"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2006
+attributes: {"class":"alphabet date","href":" http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2006"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2005
+attributes: {"class":"alphabet date","href":" http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2005"}
+
+target: http://www.bbaw.de/bbaw/Aktuell/
+attributes: {"href":"http://www.bbaw.de/bbaw/Aktuell/"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2009
+attributes: {"class":"alphabet date current","href":" http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2009"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2008
+attributes: {"class":"alphabet date","href":" http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2008"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2007
+attributes: {"class":"alphabet date","href":" http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2007"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2006
+attributes: {"class":"alphabet date","href":" http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2006"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2005
+attributes: {"class":"alphabet date","href":" http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2005"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2009
+attributes: {"class":"alphabet date current","href":" http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2009"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2008
+attributes: {"class":"alphabet date","href":" http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2008"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2007
+attributes: {"class":"alphabet date","href":" http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2007"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2006
+attributes: {"class":"alphabet date","href":" http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2006"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2005
+attributes: {"class":"alphabet date","href":" http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2005"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2009
+attributes: {"class":"alphabet date current","href":" http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2009"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2008
+attributes: {"class":"alphabet date","href":" http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2008"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2007
+attributes: {"class":"alphabet date","href":" http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2007"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2006
+attributes: {"class":"alphabet date","href":" http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2006"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2005
+attributes: {"class":"alphabet date","href":" http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2005-2009/pressemitteilungen-2005-2009?jahr=2005"}
+
+###################################################################
+http://www.bbaw.de/presse/presseecho/presseecho-2016/
+###################################################################
+target: http://www.bbaw.de/presse/presseecho/presseecho-2016/www.bbaw.de/presse/presseecho/portal_factory/bbaw_presseecho/bbaw_presseecho.2016-01-26.9254446508/edit
+attributes: {"class":"more","href":"www.bbaw.de/presse/presseecho/portal_factory/bbaw_presseecho/bbaw_presseecho.2016-01-26.9254446508/edit"}
+
+###################################################################
+http://www.bbaw.de/presse/presseecho/presseecho2013/
+###################################################################
+target: http://www.bbaw.de/presse/presseecho2013/portal_factory/bbaw_presseecho/bbaw_presseecho.2013-02-08.7129326565/edit
+attributes: {"class":"more","href":"http://www.bbaw.de/presse/presseecho2013/portal_factory/bbaw_presseecho/bbaw_presseecho.2013-02-08.7129326565/edit"}
+
+###################################################################
+http://www.bbaw.de/presse/presseecho/presseecho2011/
+###################################################################
+target: http://www.bbaw.de/presse/presseecho/presseecho2011/Sprich zu mir! - The Language Archive
+attributes: {"class":"more","href":"Sprich zu mir! - The Language Archive"}
+
+###################################################################
+http://www.bbaw.de/presse/presseecho/presseechorueckblick/
+###################################################################
+target: http://www.bbaw.de/presse/presseecho/presseechorueckblick/http://www.bbaw.de/presse/presseecho/presseechorueckblick/presseecchorueckblick2005-2009?jahr=2009
+attributes: {"class":"alphabet date current","href":" http://www.bbaw.de/presse/presseecho/presseechorueckblick/presseecchorueckblick2005-2009?jahr=2009"}
+
+target: http://www.bbaw.de/presse/presseecho/presseechorueckblick/http://www.bbaw.de/presse/presseecho/presseechorueckblick/presseecchorueckblick2005-2009?jahr=2008
+attributes: {"class":"alphabet date","href":" http://www.bbaw.de/presse/presseecho/presseechorueckblick/presseecchorueckblick2005-2009?jahr=2008"}
+
+target: http://www.bbaw.de/presse/presseecho/presseechorueckblick/http://www.bbaw.de/presse/presseecho/presseechorueckblick/presseecchorueckblick2005-2009?jahr=2007
+attributes: {"class":"alphabet date","href":" http://www.bbaw.de/presse/presseecho/presseechorueckblick/presseecchorueckblick2005-2009?jahr=2007"}
+
+target: http://www.bbaw.de/presse/presseecho/presseechorueckblick/http://www.bbaw.de/presse/presseecho/presseechorueckblick/presseecchorueckblick2005-2009?jahr=2006
+attributes: {"class":"alphabet date","href":" http://www.bbaw.de/presse/presseecho/presseechorueckblick/presseecchorueckblick2005-2009?jahr=2006"}
+
+target: http://www.bbaw.de/presse/presseecho/presseechorueckblick/http://www.bbaw.de/presse/presseecho/presseechorueckblick/presseecchorueckblick2005-2009?jahr=2005
+attributes: {"class":"alphabet date","href":" http://www.bbaw.de/presse/presseecho/presseechorueckblick/presseecchorueckblick2005-2009?jahr=2005"}
+
+###################################################################
+http://www.bbaw.de/forschung/turfanforschung/dta/index.html/
+###################################################################
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/bi/dta_bi_index.htm
+attributes: {"onmouseover":"wechsel(5,bisig); wechsel(4,bi02); return true","onmouseout":"wechsel(5,rahmen); wechsel(4,bi01);\n         return true","href":"bi/dta_bi_index.htm"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/bs/dta_bs_index.htm
+attributes: {"onmouseover":"wechsel(5,bssig); wechsel(6,bs02); return true","onmouseout":"wechsel(5,rahmen); wechsel(6,bs01);\n          return true","href":"bs/dta_bs_index.htm"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/ch_u/dta_chu_index.html
+attributes: {"onmouseover":"wechsel(5,chusig); wechsel(8,chu02); return true","onmouseout":"wechsel(5,rahmen); wechsel(8,chu01);\n          return true","href":"ch_u/dta_chu_index.html"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/h/dta_h_index.htm
+attributes: {"onmouseover":"wechsel(5,hsig); wechsel(9,h02); return true","onmouseout":"wechsel(5,rahmen); wechsel(9,h01); return true","href":"h/dta_h_index.htm"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/ks/dta_ks_index.htm
+attributes: {"onmouseover":"wechsel(5,kssig); wechsel(10,ks02); return true","onmouseout":"wechsel(5,rahmen); wechsel(10,ks01);\n            return true","href":"ks/dta_ks_index.htm"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/m/dta_m_index.htm
+attributes: {"onmouseover":"wechsel(5,msig); wechsel(11,m02); return true","onmouseout":"wechsel(5,rahmen); wechsel(11,m01);\n            return true","href":"m/dta_m_index.htm"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/mainz/dta_mainz_index.htm
+attributes: {"onmouseover":"wechsel(5,mainzsig); wechsel(12,mainz02); return true","onmouseout":"wechsel(5,rahmen); wechsel(12,mainz01); return true","href":"mainz/dta_mainz_index.htm"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/monght/dta_monght_index.htm
+attributes: {"onmouseover":"wechsel(5,monghtsig); wechsel(13,monght02); return true","onmouseout":"wechsel(5,rahmen); wechsel(13,monght01); return true","href":"monght/dta_monght_index.htm"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/n/dta_n_index.html
+attributes: {"onmouseover":"wechsel(5,chnsig); wechsel(14,chn02); return true","onmouseout":"wechsel(5,rahmen); wechsel(14,chn01);\n            return true","href":"n/dta_n_index.html"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/np/dta_np_index.htm
+attributes: {"onmouseover":"wechsel(5,npsig); wechsel(15,np02); return true","onmouseout":"wechsel(5,rahmen); wechsel(15,np01); return true","href":"np/dta_np_index.htm"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/ps/dta_ps_index.htm
+attributes: {"onmouseover":"wechsel(5,pssig); wechsel(16,ps02); return true","onmouseout":"wechsel(5,rahmen); wechsel(16,ps01); return true","href":"ps/dta_ps_index.htm"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/so/dta_so_index.htm
+attributes: {"onmouseover":"wechsel(5,sosig); wechsel(17,so02); return true","onmouseout":"wechsel(5,rahmen); wechsel(17,so01); return true","href":"so/dta_so_index.htm"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/ts/dta_ts_index.htm
+attributes: {"onmouseover":"wechsel(5,tssig); wechsel(18,ts02); return true","onmouseout":"wechsel(5,rahmen); wechsel(18,ts01); return true","href":"ts/dta_ts_index.htm"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/u/dta_u_index.htm
+attributes: {"onmouseover":"wechsel(5,usig); wechsel(19,u02); return true","onmouseout":"wechsel(5,rahmen); wechsel(19,u01); return true","href":"u/dta_u_index.htm"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/dta_MerkGer_index.html
+attributes: {"href":"dta_MerkGer_index.html"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/dta_RulesEngl_index.html
+attributes: {"href":"dta_RulesEngl_index.html"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/adler.gif
+attributes: {"src":"adler.gif","alt":"zur BBAW-Startseite","border":"0","height":"130","width":"130"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/dfg_logo.jpg
+attributes: {"src":"dfg_logo.jpg","alt":"zur Webseite der DFG","border":"0","height":"77","width":"164"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/sbb_logo.jpg
+attributes: {"src":"sbb_logo.jpg","alt":"zur Webseite der Staatsbibliothek zu Berlin","border":"0","height":"72","width":"166"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/bi01.jpg
+attributes: {"src":"bi01.jpg","border":"0","height":"20","width":"313"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/webarchiv.jpg
+attributes: {"src":"webarchiv.jpg","align":"middle","height":"180","width":"150"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/bs01.jpg
+attributes: {"src":"bs01.jpg","border":"0"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/ch01.jpg
+attributes: {"src":"ch01.jpg","border":"0"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/chu01.jpg
+attributes: {"src":"chu01.jpg","align":"middle","border":"0"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/h01.jpg
+attributes: {"src":"h01.jpg","border":"0","height":"20","width":"295"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/ks01.jpg
+attributes: {"src":"ks01.jpg","border":"0"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/m01.jpg
+attributes: {"src":"m01.jpg","border":"0"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/mainz01.jpg
+attributes: {"src":"mainz01.jpg","border":"0"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/monght01.jpg
+attributes: {"src":"monght01.jpg","border":"0"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/chn01.jpg
+attributes: {"src":"chn01.jpg","border":"0","height":"41","width":"235"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/np01.jpg
+attributes: {"src":"np01.jpg","border":"0","height":"20","width":"322"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/ps01.jpg
+attributes: {"src":"ps01.jpg","border":"0","height":"18","width":"198"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/so01.jpg
+attributes: {"src":"so01.jpg","border":"0"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/ts01.jpg
+attributes: {"src":"ts01.jpg","border":"0"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/u01.jpg
+attributes: {"src":"u01.jpg","border":"0"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/GerFlag.gif
+attributes: {"src":"GerFlag.gif","border":"0","height":"26","width":"33"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/UKFlag.gif
+attributes: {"src":"UKFlag.gif","border":"0","height":"26","width":"33"}
+
+###################################################################
+http://www.bbaw.de/AuS/wettbewerbe/
+###################################################################
+target: http://www.bbaw.de/AuS/wettbewerbe/die-akademie/auszeichnungen/preise/liselotte-richter-preis-der-leibniz-edition-potsdam-der-bbaw/2007
+attributes: {"href":"die-akademie/auszeichnungen/preise/liselotte-richter-preis-der-leibniz-edition-potsdam-der-bbaw/2007"}
+
+target: http://www.bbaw.de/AuS/wettbewerbe/die-akademie/auszeichnungen/preise/liselotte-richter-preis-der-leibniz-edition-potsdam-der-bbaw/2009
+attributes: {"href":"die-akademie/auszeichnungen/preise/liselotte-richter-preis-der-leibniz-edition-potsdam-der-bbaw/2009"}
+
+###################################################################
+http://www.bbaw.de/en/academy/members/
+###################################################################
+target: http://www.bbaw.de/en/academy/members/http://www.bbaw.de/en/academy/members/sorted-by-class?klasse=GW
+attributes: {"href":" http://www.bbaw.de/en/academy/members/sorted-by-class?klasse=GW","class":"alphabet date current"}
+
+target: http://www.bbaw.de/en/academy/members/http://www.bbaw.de/en/academy/members/sorted-by-class?klasse=SW
+attributes: {"href":" http://www.bbaw.de/en/academy/members/sorted-by-class?klasse=SW","class":"alphabet date"}
+
+target: http://www.bbaw.de/en/academy/members/http://www.bbaw.de/en/academy/members/sorted-by-class?klasse=M-NW
+attributes: {"href":" http://www.bbaw.de/en/academy/members/sorted-by-class?klasse=M-NW","class":"alphabet date"}
+
+target: http://www.bbaw.de/en/academy/members/http://www.bbaw.de/en/academy/members/sorted-by-class?klasse=BW-M
+attributes: {"href":" http://www.bbaw.de/en/academy/members/sorted-by-class?klasse=BW-M","class":"alphabet date"}
+
+target: http://www.bbaw.de/en/academy/members/http://www.bbaw.de/en/academy/members/sorted-by-class?klasse=TW
+attributes: {"href":" http://www.bbaw.de/en/academy/members/sorted-by-class?klasse=TW","class":"alphabet date"}
+
+###################################################################
+http://www.bbaw.de/en/academy/staff/arndt/
+###################################################################
+target: http://www.bbaw.de/en/research/schleiermacher_II
+attributes: {"class":"more","href":"/en/research/schleiermacher_II"}
+
+###################################################################
+http://www.bbaw.de/en/academy/awards/prizes/
+###################################################################
+target: http://www.bbaw.de/bbaw/Akademie/auszeichnungen/preise/preis_commerzbank/pt_preis_commerzbank/preis_commerzbank_2009
+attributes: {"href":"../../../../bbaw/Akademie/auszeichnungen/preise/preis_commerzbank/pt_preis_commerzbank/preis_commerzbank_2009"}
+
+###################################################################
+http://www.bbaw.de/en/telota/projectcollection/
+###################################################################
+target: http://www.bbaw.de/bbaw/Forschung/Forschungsprojekte/actaborussica/de/Startseite
+attributes: {"class":"external-link","href":"../../../bbaw/Forschung/Forschungsprojekte/actaborussica/de/Startseite"}
+
+###################################################################
+http://www.bbaw.de/telota/ressourcen/
+###################################################################
+target: http://www.bbaw.de/telota/projekte/digitale_editionen
+attributes: {"target":"_self","href":"../projekte/digitale_editionen","class":"more"}
+
+###################################################################
+http://www.bbaw.de/telota/ressourcen/alphabetische-liste/RSS/
+###################################################################
+target: undefined
+attributes: {"rdf:resource":"http://www.bbaw.de/logo.jpg"}
+
+###################################################################
+http://www.bbaw.de/telota/ressourcen/zentrum-alte-welt/RSS/
+###################################################################
+target: undefined
+attributes: {"rdf:resource":"http://www.bbaw.de/logo.jpg"}
+
+###################################################################
+http://www.bbaw.de/telota/ressourcen/zentrum-preussen/RSS/
+###################################################################
+target: undefined
+attributes: {"rdf:resource":"http://www.bbaw.de/logo.jpg"}
+
+###################################################################
+http://www.bbaw.de/telota/ressourcen/zentrum-sprache/RSS/
+###################################################################
+target: undefined
+attributes: {"rdf:resource":"http://www.bbaw.de/logo.jpg"}
+
+###################################################################
+http://www.bbaw.de/forschung/gwb/
+###################################################################
+target: http://www.bbaw.de/forschung/gwb/javascript:MitgFenter = window.open('http://www.bbaw.de/bbaw/Forschung/Mitarbeiter/mniedermeier', 'mitgliedfenster', 'width=750, scrollbars').focus()
+attributes: {"href":"javascript:MitgFenter = window.open('http://www.bbaw.de/bbaw/Forschung/Mitarbeiter/mniedermeier', 'mitgliedfenster', 'width=750, scrollbars').focus()"}
+
+###################################################################
+http://www.bbaw.de/die-akademie/akademiegeschichte/historischer-kalender/
+###################################################################
+target: http://www.bbaw.de/die-akademie/akademiegeschichte/historischer-kalender/zweck
+attributes: {"href":"zweck"}
+
+###################################################################
+http://www.bbaw.de/forschung/avh/
+###################################################################
+target: http://www.bbaw.de/bbaw/Forschung/Forschungsprojekte/avh/de/Blanko.2004-12-14.3730549301
+attributes: {"href":"../../bbaw/Forschung/Forschungsprojekte/avh/de/Blanko.2004-12-14.3730549301"}
+
+target: http://www.bbaw.de/bbaw/Forschung/Forschungsprojekte/avh/de/Blanko.2004-12-14.3375479487
+attributes: {"href":"../../bbaw/Forschung/Forschungsprojekte/avh/de/Blanko.2004-12-14.3375479487"}
+
+###################################################################
+http://www.bbaw.de/forschung/dtm/HSA/startseite-hsa.html/
+###################################################################
+target: http://www.bbaw.de/forschung/dtm/HSA/startseite-hsa.html/hsa-index.html
+attributes: {"href":"hsa-index.html"}
+
+target: http://www.bbaw.de/forschung/dtm/HSA/startseite-hsa.html/beschreiber.html
+attributes: {"href":"beschreiber.html"}
+
+target: http://www.bbaw.de/forschung/dtm/HSA/startseite-hsa.html/archiv.JPG
+attributes: {"src":"archiv.JPG","height":"150","width":"163"}
+
+target: http://www.bbaw.de/forschung/dtm/HSA/startseite-hsa.html/sonnenblume.JPG
+attributes: {"src":"sonnenblume.JPG","height":"150","width":"116"}
+
+###################################################################
+http://www.bbaw.de/forschung/humanprojekt/
+###################################################################
+target: blanko.2006-02-01.4891179013
+attributes: {"href":"../../../../../../../../../../../blanko.2006-02-01.4891179013"}
+
+target: http://www.bbaw.de/forschung/humanprojekt/blanko.2006-03-08.9109703399
+attributes: {"href":"blanko.2006-03-08.9109703399"}
+
+###################################################################
+http://www.bbaw.de/forschung/kfvp/
+###################################################################
+target: http://www.bbaw.de/bbaw/Mitglieder/MitgliedDetails?mitgliedsid=45
+attributes: {"href":"../../bbaw/Mitglieder/MitgliedDetails?mitgliedsid=45"}
+
+###################################################################
+http://www.bbaw.de/forschung/politikberatung/
+###################################################################
+target: http://www.bbaw.de/forschung/politikberatung/javascript:MitgFenter = window.open('http://www.bbaw.de/bbaw/Forschung/Mitglieder/1572', 'mitgliedfenster', 'width=750, scrollbars').focus()
+attributes: {"href":"javascript:MitgFenter = window.open('http://www.bbaw.de/bbaw/Forschung/Mitglieder/1572', 'mitgliedfenster', 'width=750, scrollbars').focus()"}
+
+###################################################################
+http://www.bbaw.de/veranstaltungen/2019/Oktober/
+###################################################################
+target: http://www.bbaw.de/commerzbankpreis
+attributes: {"href":"http://www.bbaw.de/commerzbankpreis"}
+
+###################################################################
+http://www.bbaw.de/veranstaltungen/2019/april/
+###################################################################
+target: http://www.bbaw.de/anmeldung-naturgemaelde2
+attributes: {"class":"more","href":"/anmeldung-naturgemaelde2"}
+
+target: http://www.bbaw.de/anmeldung-migration2
+attributes: {"class":"more","href":"/anmeldung-migration2"}
+
+###################################################################
+http://www.bbaw.de/veranstaltungen/2018/Dezember/
+###################################################################
+target: http://www.bbaw.de/veranstaltungen/2018/Dezember/www.bbaw.de/anmeldung-goethe-morgen
+attributes: {"class":"more","href":"/veranstaltungen/2018/Dezember/www.bbaw.de/anmeldung-goethe-morgen"}
+
+###################################################################
+http://www.bbaw.de/veranstaltungen/2018/november/
+###################################################################
+target: http://www.bbaw.de/anmeldung-exzellenzinitiative
+attributes: {"class":"more","href":"/anmeldung-exzellenzinitiative"}
+
+target: http://www.bbaw.de/anmeldung-avl1
+attributes: {"class":"more","href":"/anmeldung-avl1"}
+
+###################################################################
+http://www.bbaw.de/veranstaltungen/2018/oktober/
+###################################################################
+target: http://www.bbaw.de/veranstaltungen/2018/oktober/www.bbaw.de/anmeldung-gendern
+attributes: {"class":"more","href":"/veranstaltungen/2018/oktober/www.bbaw.de/anmeldung-gendern"}
+
+target: http://www.bbaw.de/veranstaltungen/2018/oktober/portal_factory/VSEvent/luckscheiter@bbaw.de
+attributes: {"class":"more","href":"/veranstaltungen/2018/oktober/portal_factory/VSEvent/luckscheiter@bbaw.de"}
+
+target: http://www.bbaw.de/anmeldung-bernd-alois-zimmermann
+attributes: {"class":"more","href":"/anmeldung-bernd-alois-zimmermann"}
+
+###################################################################
+http://www.bbaw.de/veranstaltungen/2018/september/
+###################################################################
+target: http://www.bbaw.de/veranstaltungen/2018/september/www.bbaw.de/anmeldung-kleine-sprachen
+attributes: {"class":"more","href":"/veranstaltungen/2018/september/www.bbaw.de/anmeldung-kleine-sprachen"}
+
+###################################################################
+http://www.bbaw.de/veranstaltungen/2018/juni/
+###################################################################
+target: http://www.bbaw.de/veranstaltungen/2018/juni/www2.bbaw.de/festsitzung
+attributes: {"class":"more","href":"www2.bbaw.de/festsitzung"}
+
+target: http://www.bbaw.de/veranstaltungen/2018/juni/www.bbaw.de
+attributes: {"class":"more","href":"/veranstaltungen/2018/juni/www.bbaw.de"}
+
+###################################################################
+http://www.bbaw.de/veranstaltungen/2018/mai/
+###################################################################
+target: http://www.bbaw.de/veranstaltungen/2018/mai/ http://www.mfk-berlin.de/fremde-sprachen/
+attributes: {"class":"more","href":"/veranstaltungen/2018/mai/ http://www.mfk-berlin.de/fremde-sprachen/"}
+
+###################################################################
+http://www.bbaw.de/veranstaltungen/2018/april/
+###################################################################
+target: http://www.bbaw.de/Religionsgespraeche_Gott
+attributes: {"class":"more","href":"/Religionsgespraeche_Gott"}
+
+###################################################################
+http://www.bbaw.de/veranstaltungen/2018/maerz/
+###################################################################
+target: http://www.bbaw.de/veranstaltungen/2018/maerz/www.bbaw.de/Anmeldung-Augustus
+attributes: {"class":"more","href":"/veranstaltungen/2018/maerz/www.bbaw.de/Anmeldung-Augustus"}
+
+target: http://www.bbaw.de/anmeldung-sprache-kognition
+attributes: {"href":"/anmeldung-sprache-kognition"}
+
+target: http://www.bbaw.de/veranstaltungen/2018/maerz/www.bbaw.de/anmeldung-uwe-johnson
+attributes: {"class":"more","href":"/veranstaltungen/2018/maerz/www.bbaw.de/anmeldung-uwe-johnson  "}
+
+###################################################################
+http://www.bbaw.de/veranstaltungen/2018/februar/
+###################################################################
+target: http://www.bbaw.de/Anmeldung-Seehandel
+attributes: {"class":"more","href":"/Anmeldung-Seehandel"}
+
+###################################################################
+http://www.bbaw.de/veranstaltungen/2017/dezember/
+###################################################################
+target: http://www.bbaw.de/veranstaltungen/2017/dezember/www2.bbaw.de/anmeldung-mendelssohn
+attributes: {"class":"more","href":"/veranstaltungen/2017/dezember/www2.bbaw.de/anmeldung-mendelssohn"}
+
+target: http://www.bbaw.de/veranstaltungen/2017/dezember/www2.bbaw.de/anmeldung-agb
+attributes: {"class":"more","href":"/veranstaltungen/2017/dezember/www2.bbaw.de/anmeldung-agb"}
+
+target: http://www.bbaw.de/veranstaltungen/2017/dezember/www2.bbaw.de/festsitzung
+attributes: {"class":"more","href":"/veranstaltungen/2017/dezember/www2.bbaw.de/festsitzung"}
+
+###################################################################
+http://www.bbaw.de/veranstaltungen/2017/november/
+###################################################################
+target: http://www.bbaw.de/veranstaltungen/2017/november/www2.bbaw.de/Anmeldung-DH-Schildhauer
+attributes: {"class":"more","href":"/veranstaltungen/2017/november/www2.bbaw.de/Anmeldung-DH-Schildhauer"}
+
+###################################################################
+http://www.bbaw.de/veranstaltungen/2017/Oktober/
+###################################################################
+target: http://www.bbaw.de/veranstaltungen/2017/Oktober/www.bbaw.de/anmeldung-av-bild-wort-zeichen
+attributes: {"class":"more","href":"/veranstaltungen/2017/Oktober/www.bbaw.de/anmeldung-av-bild-wort-zeichen"}
+
+target: http://www.bbaw.de/veranstaltungen/2017/Oktober/www.bbaw.de/anmeldung-tagung-bild-wort-zeichen
+attributes: {"class":"more","href":"/veranstaltungen/2017/Oktober/www.bbaw.de/anmeldung-tagung-bild-wort-zeichen"}
+
+target: http://www.bbaw.de/veranstaltungen/2017/Oktober/www.bbaw.de/anmeldung-feuer-rauch-asche
+attributes: {"class":"more","href":"/veranstaltungen/2017/Oktober/www.bbaw.de/anmeldung-feuer-rauch-asche"}
+
+target: http://www.bbaw.de/veranstaltungen/2017/Oktober/www2.bbaw.de/anmeldung-looking-back
+attributes: {"class":"more","href":"www2.bbaw.de/anmeldung-looking-back"}
+
+target: http://www.bbaw.de/veranstaltungen/2017/Oktober/www2.bbaw.de/anmeldung-7hcentury
+attributes: {"class":"more","href":"/veranstaltungen/2017/Oktober/www2.bbaw.de/anmeldung-7hcentury"}
+
+###################################################################
+http://www.bbaw.de/veranstaltungen/2017/september/
+###################################################################
+target: http://www.bbaw.de/veranstaltungen/2017/september/ www.bbaw.de/anmeldung-avhr17
+attributes: {"class":"more","href":"/veranstaltungen/2017/september/ www.bbaw.de/anmeldung-avhr17"}
+
+###################################################################
+http://www.bbaw.de/veranstaltungen/2017/mai/
+###################################################################
+target: http://www.bbaw.de/veranstaltungen/2017/mai/www2.bbaw.de/anmeldung-EHB
+attributes: {"class":"more","href":"/veranstaltungen/2017/mai/www2.bbaw.de/anmeldung-EHB"}
+
+###################################################################
+http://www.bbaw.de/veranstaltungen/2017/maerz/
+###################################################################
+target: http://www.bbaw.de/veranstaltungen/2017/maerz/www2.bbaw.de/anmeldung-epigenetik
+attributes: {"class":"more","href":"/veranstaltungen/2017/maerz/www2.bbaw.de/anmeldung-epigenetik"}
+
+###################################################################
+http://www.bbaw.de/veranstaltungen/2016/dezember/
+###################################################################
+target: http://www.bbaw.de/veranstaltungen/2016/dezember/www2.bbaw.de/anmeldung-goethe-jubilaeum
+attributes: {"class":"more","href":"/veranstaltungen/2016/dezember/www2.bbaw.de/anmeldung-goethe-jubilaeum"}
+
+###################################################################
+http://www.bbaw.de/veranstaltungen/2016/november/
+###################################################################
+target: http://www.bbaw.de/veranstaltungen/2016/november/www.bbaw.de/einsteintag2016
+attributes: {"class":"more","href":"www.bbaw.de/einsteintag2016"}
+
+target: http://www.bbaw.de/veranstaltungen/2016/november/schleiermacher-in-berlin.bbaw.de/index.xql
+attributes: {"class":"more","href":"/veranstaltungen/2016/november/schleiermacher-in-berlin.bbaw.de/index.xql"}
+
+###################################################################
+http://www.bbaw.de/veranstaltungen/2015/dezember/
+###################################################################
+target: http://www.bbaw.de/veranstaltungen/2015/dezember/resolveuid/88ddc6b9d437e3e2d1019dca6025dc53
+attributes: {"class":"more","href":"./resolveuid/88ddc6b9d437e3e2d1019dca6025dc53"}
+
+###################################################################
+http://www.bbaw.de/veranstaltungen/2013/Maerz/
+###################################################################
+target: http://www.bbaw.de/veranstaltungen/2013/Maerz/pdrworks2013@bbaw.de
+attributes: {"href":" pdrworks2013@bbaw.de"}
+
+###################################################################
+http://www.bbaw.de/veranstaltungen/2011/November/
+###################################################################
+target: http://www.bbaw.de/veranstaltungen/2011/November/http://www.census.de/census/translatio-nummorum
+attributes: {"href":" http://www.census.de/census/translatio-nummorum","class":"more"}
+
+###################################################################
+http://www.bbaw.de/veranstaltungen/archiv-2010/100329_nichtwissen/
+###################################################################
+target: http://www.bbaw.de/bbaw/Forschung/Forschungsprojekte/Globaler%20Wandel/de/Ueberblick
+attributes: {"target":"_blank","href":"http://www.bbaw.de/bbaw/Forschung/Forschungsprojekte/Globaler%20Wandel/de/Ueberblick"}
+
+###################################################################
+http://www.bbaw.de/veranstaltungen/archiv-2010/100222_grimm_der_zukunft/
+###################################################################
+target: http://www.bbaw.de/bbaw/Forschung/Zentren/Sprache
+attributes: {"class":"more","href":"http://www.bbaw.de/bbaw/Forschung/Zentren/Sprache","id":"parent-fieldname-eventUrl"}
+
+###################################################################
+http://www.bbaw.de/veranstaltungen/archiv-2010/100129_moritz_magazin/
+###################################################################
+target: http://www.bbaw.de/bbaw/Forschung/Forschungsprojekte/moritz/de/Startseite
+attributes: {"class":"more","href":"http://www.bbaw.de/bbaw/Forschung/Forschungsprojekte/moritz/de/Startseite","id":"parent-fieldname-eventUrl"}
+
+###################################################################
+http://www.bbaw.de/veranstaltungen/archiv-2010/100123_salon_sophie_charlotte/
+###################################################################
+target: http://www.bbaw.de/akademie/hws
+attributes: {"href":"http://www.bbaw.de/akademie/hws"}
+
+###################################################################
+http://www.bbaw.de/bbaw/Veranstaltungen/Veranstaltungsseite_ansehen.html?terminid=829/
+###################################################################
+target: http://www.bbaw.de/bbaw/Veranstaltungen/Veranstaltungsseite_ansehen.html?terminid=829/mailto:neumann@bbaw.de
+attributes: {"class":"kontakt","href":" mailto:neumann@bbaw.de"}
+
+target: http://www.bbaw.de/bbaw/Veranstaltungen/Veranstaltungsseite_ansehen.html?terminid=829/http://www.bbaw.de/bbaw/Veranstaltungen/index_html
+attributes: {"href":" http://www.bbaw.de/bbaw/Veranstaltungen/index_html"}
+
+target: http://www.bbaw.de/bbaw/Veranstaltungen/Veranstaltungsseite_ansehen.html?terminid=829/http://www.bbaw.de/bbaw/Veranstaltungen/Veranstaltungsseite_ansehen.html?seite_id=238&terminid=829
+attributes: {"href":" http://www.bbaw.de/bbaw/Veranstaltungen/Veranstaltungsseite_ansehen.html?seite_id=238&terminid=829"}
+
+target: http://www.bbaw.de/bbaw/Veranstaltungen/Veranstaltungsseite_ansehen.html?terminid=829/grafiken/spacer.gif
+attributes: {"src":"grafiken/spacer.gif","width":"1","height":"2","border":"0"}
+
+###################################################################
+http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2017/
+###################################################################
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2017/www.agya.info
+attributes: {"class":"more","href":"www.agya.info"}
+
+###################################################################
+http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2016/
+###################################################################
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2016/ /veranstaltungen/2016/september/veranstaltung-humboldttag-2016
+attributes: {"class":"more","href":"/presse/pressemitteilungen/pressemitteilungen-2016/ /veranstaltungen/2016/september/veranstaltung-humboldttag-2016"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2016/www.bestewelten.de
+attributes: {"class":"more","href":"/presse/pressemitteilungen/pressemitteilungen-2016/www.bestewelten.de"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2016/www.tuwas-deutschland.de
+attributes: {"class":"more","href":"/presse/pressemitteilungen/pressemitteilungen-2016/www.tuwas-deutschland.de"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2016/www.topoi.org
+attributes: {"class":"more","href":"/presse/pressemitteilungen/pressemitteilungen-2016/www.topoi.org"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2016/ /forschung/ig
+attributes: {"class":"more","href":"/presse/pressemitteilungen/pressemitteilungen-2016/ /forschung/ig"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2016/gerlach@bbaw.de
+attributes: {"class":"more","href":"/presse/pressemitteilungen/pressemitteilungen-2016/gerlach@bbaw.de"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2016/www.agya.info
+attributes: {"class":"more","href":"/presse/pressemitteilungen/pressemitteilungen-2016/www.agya.info"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2016/www.bbaw.de
+attributes: {"class":"more","href":"/presse/pressemitteilungen/pressemitteilungen-2016/www.bbaw.de"}
+
+###################################################################
+http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2013/
+###################################################################
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2013/www.bbaw.de/pressedownload
+attributes: {"class":"more","href":"/presse/pressemitteilungen/pressemitteilungen-2013/www.bbaw.de/pressedownload"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2013/lerch@bbaw.de
+attributes: {"href":"/presse/pressemitteilungen/pressemitteilungen-2013/lerch@bbaw.de","class":"more"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2013/portal_factory/bbaw_pressemitteilung/www.gegenworte.org
+attributes: {"href":"/presse/pressemitteilungen/pressemitteilungen-2013/portal_factory/bbaw_pressemitteilung/www.gegenworte.org","class":"more"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2013/www.bbaw.de
+attributes: {"href":"/presse/pressemitteilungen/pressemitteilungen-2013/www.bbaw.de","class":"more"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2013/portal_factory/bbaw_pressemitteilung/www.oekosystemleistungen.de
+attributes: {"class":"more","href":"portal_factory/bbaw_pressemitteilung/www.oekosystemleistungen.de"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2013/www.gegenworte.org
+attributes: {"href":"www.gegenworte.org","class":"more"}
+
+###################################################################
+http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2012/
+###################################################################
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2012/www.wallstein-verlag.de/9783835312319.html
+attributes: {"href":"www.wallstein-verlag.de/9783835312319.html","class":"more"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2012/lerch@bbaw.de
+attributes: {"class":"more","href":"lerch@bbaw.de"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2012/www.bbaw.de
+attributes: {"class":"more","href":"www.bbaw.de"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2012/www.akademieunion.de
+attributes: {"class":"more","href":"www.akademieunion.de"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2012/www.allea.org
+attributes: {"class":"more","href":"www.allea.org"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2012/www.zukunft-mit-kindern.eu
+attributes: {"class":"more","href":"www.zukunft-mit-kindern.eu "}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2012/www.tuwas.fu-berlin.de
+attributes: {"href":"www.tuwas.fu-berlin.de","class":"more"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2012/www.fibonacci-project.eu
+attributes: {"href":"www.fibonacci-project.eu","class":"more"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2012/www.mbjs.brandenburg.de/sixcms/detail.php/bb2.c.425681.de  http://bildungsserver.berlin-brandenburg.de/2269.html
+attributes: {"class":"more","href":"www.mbjs.brandenburg.de/sixcms/detail.php/bb2.c.425681.de  http://bildungsserver.berlin-brandenburg.de/2269.html "}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2012/greta.wonneberger@topoi.org
+attributes: {"href":"greta.wonneberger@topoi.org","class":"more"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2012/www.gegenworte.org
+attributes: {"href":"www.gegenworte.org","class":"more"}
+
+###################################################################
+http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2011/
+###################################################################
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2011/www.akademie-verlag.de
+attributes: {"class":"more","href":"www.akademie-verlag.de"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2011/lerch@bbaw.de
+attributes: {"href":"lerch@bbaw.de","class":"more"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2011/helbling@wzb.eu
+attributes: {"href":"helbling@wzb.eu","class":"more"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2011/trommler@bbaw.de
+attributes: {"class":"more","href":"trommler@bbaw.de"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2011/portal_factory/bbaw_pressemitteilung/leibniz-medaille
+attributes: {"href":"portal_factory/bbaw_pressemitteilung/leibniz-medaille"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2011/www.sub.uni-goettingen.de
+attributes: {"class":"more","href":"www.sub.uni-goettingen.de"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2011/www.bbaw.de
+attributes: {"class":"more","href":"www.bbaw.de"}
+
+###################################################################
+http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2010/
+###################################################################
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2010/www.bbaw.de
+attributes: {"href":"www.bbaw.de","class":"more"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2010/www.gegenworte.org
+attributes: {"href":"www.gegenworte.org","class":"more"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2010/gericke@akademie-verlag.de
+attributes: {"href":"gericke@akademie-verlag.de","class":"more"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2010/glerch@bbaw.de
+attributes: {"class":"more","href":"glerch@bbaw.de"}
+

@@ -1,7 +1,10 @@
 module.exports = {
-    "extends": ["airbnb-base", "prettier"],
-    "plugins": ["prettier"],
-  "rules": {
-    "prettier/prettier": ["error"]
+  extends: ['airbnb', 'prettier'],
+  parser: 'babel-eslint',
+  parserOptions: {
+    ecmaVersion: 2015
   },
+  env: {
+    es6: true
+  }
 };

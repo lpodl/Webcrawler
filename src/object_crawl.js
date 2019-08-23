@@ -16,14 +16,12 @@ function Iterator(array) {
   let index = 0;
   return {
     next() {
-      return index < array.length
-        ? {
-            value: array[index++],
-            done: false
-          }
-        : {
-            done: true
-          };
+      return index < array.length ? {
+        value: array[index++],
+        done: false
+      } : {
+        done: true
+      };
     },
     current() {
       return index;
@@ -50,11 +48,6 @@ function absoluteLink(currentUrl, relative) {
   return targetURL;
 }
 
-function reduceTuple(tuple) {
-  // takes a tuple of the form {origin:..., target:..., element:...}
-  // deletes origin and element to reduce heap size
-  return { target: tuple.target };
-}
 class Crawler {
   /**
    * @desc Crawler checks if all links and images of a website are online.
@@ -85,12 +78,16 @@ class Crawler {
   log(str, color) {
     if (this.verbose) {
       if (color === 'green') {
+        // eslint-disable-next-line no-console
         console.log(chalk.green(str));
       } else if (color === 'red') {
+        // eslint-disable-next-line no-console
         console.log(chalk.red(str));
       } else if (color === 'yellow') {
+        // eslint-disable-next-line no-console
         console.log(chalk.yellow(str));
       } else {
+        // eslint-disable-next-line no-console
         console.log(str);
       }
     }
@@ -99,7 +96,7 @@ class Crawler {
   pushNew(linkTuple) {
     // add broken target URLs to queue even if we've alrdy checked them
     // we'll collect multiple broken links to the same missing address this way
-    if (this.brokenpages.some(brokenTuple => brokenTuple.target === linkTuple.target)){
+    if (this.brokenpages.some(brokenTuple => brokenTuple.target === linkTuple.target)) {
       this.linkTuples.push(linkTuple);
     }
     // only add target URL to queue if we haven't visited it yet
@@ -109,19 +106,21 @@ class Crawler {
   }
 
   validateLink(currentUrl, href, attributes) {
-    // validates whether or not a link should be excluded from testing it,
+    // checks whether or not a link should be excluded from testing it,
     // pushes the url otherwise
     const SkipStart = ['afs:', 'cid:', 'file:', 'ftp:', 'mailto:', 'mid:', 'news:', 'x-exec:', '#'];
     const SkipEnd = ['.mp3', '.mp4', '.webm', '.wav', '.flac', '.ogg', '.pdf'];
+    const skipAnywhere = ['javascript'];
     const flagStart = skipPhrase => href.startsWith(skipPhrase);
     const flagEnd = skipPhrase => href.endsWith(skipPhrase);
+    const flagAny = skipPhrase => href.includes(skipPhrase);
     if (typeof href === 'undefined') {
       this.brokenpages.push({
         origin: currentUrl,
         target: href,
         attributes
       });
-    } else if (SkipStart.some(flagStart) || SkipEnd.some(flagEnd)) {
+    } else if (SkipStart.some(flagStart) || SkipEnd.some(flagEnd || skipAnywhere.some(flagAny))) {
       // skip href
     } else if (href.startsWith('http://') || href.startsWith('https://')) {
       if (href.includes(this.initUrl.hostname) || this.CRAWL_EXTERNAL_PAGES) {
@@ -143,6 +142,7 @@ class Crawler {
   }
 
   collectBaseUrl(base, currentUrl) {
+    // console.log('collecting base');
     if (base.length === 1) {
       const href = base.attr('href');
       if (href === 'undefined') {
@@ -159,7 +159,7 @@ class Crawler {
     if (base.length > 2) {
       this.brokenpages.push({
         origin: currentUrl,
-        target: 'more than one base tag specified',
+        target: 'more than one base tag specified'
       });
       return currentUrl;
     }
@@ -167,27 +167,29 @@ class Crawler {
   }
 
   collectLinks($, currentUrl) {
+    // console.log('collecting Links');
     const Links = $('a[href]');
     Links.each((index, element) => {
       const href = $(element).attr('href');
       const attributes = JSON.stringify(element.attribs);
-      this.validateLink(currentUrl, href, attributes);
+      this.validateLink(currentUrl, href.trim(), attributes);
     });
   }
 
   collectImages($, currentUrl) {
+    // console.log('collecting Img');
     const img = $('img');
     img.each((index, element) => {
       const src = $(element).attr('src');
       const attributes = JSON.stringify(element.attribs);
-      this.validateLink(currentUrl, src, attributes);
+      this.validateLink(currentUrl, src.trim(), attributes);
     });
   }
 
   visitPage(linkTuple) {
+    // console.log('visiting', linkTuple.target);
     // Make the request
-    request(
-      {
+    request({
         url: linkTuple.target,
         headers: {
           'User-Agent': 'TELOTA webcrawler'
@@ -200,7 +202,7 @@ class Crawler {
           this.brokenpages.push(linkTuple);
           this.crawl();
         } else if (response.statusCode !== 200) {
-        // push broken page if status code is not 200 HTTP OK
+          // push broken page if status code is not 200 HTTP OK
           this.brokenpages.push(linkTuple);
           this.log(`[origin] ${linkTuple.origin}\n[broken link] ${linkTuple.target}`, 'red');
           this.crawl();
@@ -213,8 +215,8 @@ class Crawler {
             this.collectLinks($, baseUrl);
             this.collectImages($, baseUrl);
             this.numPagesCrawled += 1;
-            this.crawl();
           }
+          this.crawl();
         }
       }
     );
@@ -264,33 +266,41 @@ class Crawler {
     const date = new Date();
     let report = `WebCrawler Report from ${date.toString()} \n`;
     // prettier-ignore
-    report = report.concat(
-      `Crawling completed.${this.numPagesCrawled} pages crawled. \r\n`+ 
-      `${this.linkTuples.length - this.numPagesCrawled} pages unchecked because MAX_PAGES_TO_CRAWL was reached before. \r\n` +
-      `${this.brokenpages.length} broken pages found. \r\n`,
-    );
+    if (typeof this.Iterator.next().value === 'undefined') {
+      report = report.concat(
+        `Crawling completed.${this.numPagesCrawled} pages crawled. \r\n` +
+        `No more links found.` +
+        `${this.brokenpages.length} broken pages found. \r\n`,
+      );
+    } else {
+      report = report.concat(
+        `Crawling completed.${this.numPagesCrawled} pages crawled. \r\n` +
+        `${this.linkTuples.length - this.numPagesCrawled} pages unchecked because MAX_PAGES_TO_CRAWL was reached before. \r\n` +
+        `${this.brokenpages.length} broken pages found. \r\n`,
+      );
+    }
+
     // create an object with origins as properties
     // each origin property contains the broken targets found on that page
-    let record = {};
-    this.brokenpages.forEach((tuple) => {
-      const origin = tuple.origin;
-      record[origin] = (record[origin] || []).concat({'target':tuple.target, 'attributes': tuple.attributes});
-    })
+    const record = {};
+    this.brokenpages.forEach(tuple => {
+      record[tuple.origin] = (record[tuple.origin] || []).concat({
+        target: tuple.target,
+        attributes: tuple.attributes
+      });
+    });
     // Create a headline for each origin
-    Object.keys(record).forEach((originKey) => {
+    Object.keys(record).forEach(originKey => {
       report = report.concat(
-        '---------------------------------------------------------\r\n ' +
-        originKey +
-        '\r\n ---------------------------------------------------------\r\n '
-      )
+        `###################################################################\r\n${originKey}\r\n###################################################################\r\n`
+      );
       // fill in all broken pages found on that site
-      record[originKey].forEach((brokenTuple) => {
+      record[originKey].forEach(brokenTuple => {
         report = report.concat(
-          `target: ${brokenTuple.target}\r\n` +
-          `attributes: ${brokenTuple.attributes}\r\n \r\n`,
-        )
-      })
-    })
+          `target: ${brokenTuple.target}\r\nattributes: ${brokenTuple.attributes}\r\n\r\n`
+        );
+      });
+    });
     fs.writeFile(`../../log/${dateFormat(date, 'mm-dd-yyyy HH-MM')}.txt`, report);
   }
 
@@ -306,11 +316,10 @@ module.exports = {
   Crawler
 };
 
-
-/*const MyCrawler = new Crawler(
+/* const MyCrawler = new Crawler(
     // 'http://www.bbaw.de/', // start URL
-    'http://www.bbaw.de/en/telota/resources/',
-    100, // max pages to crawl
+    'http://www.bbaw.de/',
+    20000, // max pages to crawl
     false, // crawl external pages
     true, // verbose console output
   );
