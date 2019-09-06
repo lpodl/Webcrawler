@@ -105,7 +105,7 @@ class Crawler {
     }
   }
 
-  validateLink(currentUrl, href, attributes) {
+  validateLink(currentUrl, href, attributes, text) {
     // checks whether or not a link should be excluded from testing it,
     // pushes the url otherwise
     const SkipStart = ['afs:', 'cid:', 'file:', 'ftp:', 'mailto:', 'mid:', 'news:', 'x-exec:', '#'];
@@ -118,9 +118,10 @@ class Crawler {
       this.brokenpages.push({
         origin: currentUrl,
         target: href,
+        text,
         attributes
       });
-    } else if (SkipStart.some(flagStart) || SkipEnd.some(flagEnd || skipAnywhere.some(flagAny))) {
+    } else if (SkipStart.some(flagStart) || SkipEnd.some(flagEnd) || skipAnywhere.some(flagAny)) {
       // skip href
     } else if (href.startsWith('http://') || href.startsWith('https://')) {
       if (href.includes(this.initUrl.hostname) || this.CRAWL_EXTERNAL_PAGES) {
@@ -128,6 +129,7 @@ class Crawler {
         this.pushNew({
           origin: currentUrl,
           target: href,
+          text,
           attributes
         });
       }
@@ -136,6 +138,7 @@ class Crawler {
       this.pushNew({
         origin: currentUrl,
         target: absoluteLink(currentUrl, href),
+        text,
         attributes
       });
     }
@@ -149,7 +152,8 @@ class Crawler {
         this.brokenpages.push({
           origin: currentUrl,
           target: 'undefined',
-          element: 'base'
+          text: base.text(),
+          attributes: base.attribs
         });
         return currentUrl;
       }
@@ -159,7 +163,9 @@ class Crawler {
     if (base.length > 2) {
       this.brokenpages.push({
         origin: currentUrl,
-        target: 'more than one base tag specified'
+        target: 'more than one base tag specified',
+        text: '',
+        attributes: ''
       });
       return currentUrl;
     }
@@ -172,7 +178,8 @@ class Crawler {
     Links.each((index, element) => {
       const href = $(element).attr('href');
       const attributes = JSON.stringify(element.attribs);
-      this.validateLink(currentUrl, href.trim(), attributes);
+      const text = $(element).text();
+      this.validateLink(currentUrl, href.trim(), attributes, text);
     });
   }
 
@@ -182,7 +189,8 @@ class Crawler {
     img.each((index, element) => {
       const src = $(element).attr('src');
       const attributes = JSON.stringify(element.attribs);
-      this.validateLink(currentUrl, src.trim(), attributes);
+      const text = $(element).text();
+      this.validateLink(currentUrl, src.trim(), attributes, text);
     });
   }
 
@@ -286,18 +294,21 @@ class Crawler {
     this.brokenpages.forEach(tuple => {
       record[tuple.origin] = (record[tuple.origin] || []).concat({
         target: tuple.target,
+        text: tuple.text,
         attributes: tuple.attributes
       });
     });
     // Create a headline for each origin
     Object.keys(record).forEach(originKey => {
       report = report.concat(
-        `###################################################################\r\n${originKey}\r\n###################################################################\r\n`
+        `\r\n###################################################################\r\n${originKey}\r\n###################################################################\r\n\r\n`
       );
+      // sort record entry by target
+      record[originKey].sort((a, b) => (a.target > b.target ? 1 : -1));
       // fill in all broken pages found on that site
       record[originKey].forEach(brokenTuple => {
         report = report.concat(
-          `target: ${brokenTuple.target}\r\nattributes: ${brokenTuple.attributes}\r\n\r\n`
+          `target: ${brokenTuple.target}\r\ntext: ${brokenTuple.text}\r\nattributes: ${brokenTuple.attributes}\r\n\r\n`
         );
       });
     });
@@ -315,13 +326,13 @@ class Crawler {
 module.exports = {
   Crawler
 };
-
-/* const MyCrawler = new Crawler(
-    // 'http://www.bbaw.de/', // start URL
-    'http://www.bbaw.de/',
-    20000, // max pages to crawl
-    false, // crawl external pages
-    true, // verbose console output
-  );
+/*
+const MyCrawler = new Crawler(
+  // 'http://www.bbaw.de/', // start URL
+  'http://www.bbaw.de/',
+  20000, // max pages to crawl
+  false, // crawl external pages
+  true, // verbose console output
+);
 MyCrawler.start();
 */
