@@ -12,8 +12,8 @@ const {
 
 describe('Links are online', () => {
   const MyCrawler = new Crawler(
-    'http://www.bbaw.de/die-akademie/mitglieder/', //start URL
-    7000, // max pages to crawl
+    'http://www.bbaw.de/telota/ressourcen/alphabetische-liste', //start URL
+    1500, // max pages to crawl
     false, // crawl external pages
     true, // verbose console output
   );

@@ -1,0 +1,421 @@
+WebCrawler Report from Wed Sep 11 2019 19:45:46 GMT+0200 (Mitteleuropäische Sommerzeit) 
+Crawling completed.7000 pages crawled. 
+17270 pages unchecked because MAX_PAGES_TO_CRAWL was reached before. 
+84 broken pages found. 
+
+###################################################################
+http://www.bbaw.de/publikationen/neuerscheinungen/
+###################################################################
+
+target: http://www.bbaw.de/publikationen/neuerscheinungen/urn:nbn:de:kobv:b4-opus4-30039
+text: Zur Publikation
+attributes: {"class":"more","href":"urn:nbn:de:kobv:b4-opus4-30039"}
+
+target: http://www.bbaw.de/publikationen/neuerscheinungen/urn:nbn:de:kobv:b4-opus4-30039
+text: Zur Publikation
+attributes: {"class":"more","href":"urn:nbn:de:kobv:b4-opus4-30039"}
+
+
+###################################################################
+http://www.bbaw.de/telota/
+###################################################################
+
+target: http://forschung/alphabetisch/schleiermacher_II
+text: "Schleiermacher in Berlin 1808–1834"
+attributes: {"class":"external-link","href":"/../forschung/alphabetisch/schleiermacher_II"}
+
+target: http://forschung/alphabetisch/schleiermacher_II
+text: "Schleiermacher in Berlin 1808–1834"
+attributes: {"class":"external-link","href":"/../forschung/alphabetisch/schleiermacher_II"}
+
+target: http://forschung/alphabetisch/schleiermacher_II
+text: "Schleiermacher in Berlin 1808–1834. Briefwechsel, Tageskalender, Vorlesungen"
+attributes: {"class":"external-link","href":"/../forschung/alphabetisch/schleiermacher_II"}
+
+target: http://forschung/alphabetisch/schleiermacher_II
+text: "Schleiermacher in Berlin 1808–1834"
+attributes: {"class":"external-link","href":"/../forschung/alphabetisch/schleiermacher_II"}
+
+target: http://forschung/alphabetisch/schleiermacher_II
+text: "Schleiermacher in Berlin 1808–1834. Briefwechsel, Tageskalender, Vorlesungen"
+attributes: {"class":"external-link","href":"/../forschung/alphabetisch/schleiermacher_II"}
+
+target: http://forschung/alphabetisch/schleiermacher_II
+text: "Schleiermacher in Berlin 1808–1834"
+attributes: {"class":"external-link","href":"/../forschung/alphabetisch/schleiermacher_II"}
+
+target: http://forschung/alphabetisch/schleiermacher_II
+text: "Schleiermacher in Berlin 1808–1834. Briefwechsel, Tageskalender, Vorlesungen"
+attributes: {"class":"external-link","href":"/../forschung/alphabetisch/schleiermacher_II"}
+
+
+###################################################################
+http://www.bbaw.de/telota/publikationen/
+###################################################################
+
+target: http://www.bbaw.de/bbaw/Forschung/Forschungsprojekte/cvma/de/Startseite
+text: Corpus Vitrearum Medii Aevi
+attributes: {"href":"../../bbaw/Forschung/Forschungsprojekte/cvma/de/Startseite"}
+
+target: http://www.bbaw.de/bbaw/Forschung/Forschungsprojekte/dwds/de/Startseite
+text: Digitale Wörterbuch der
+
+ Deutschen Sprache (DWDS)
+attributes: {"href":"../../bbaw/Forschung/Forschungsprojekte/dwds/de/Startseite"}
+
+target: http://www.bbaw.de/bbaw/Forschung/Forschungsprojekte/gcs/de/Startseite
+text: Griechische Christliche Schriftsteller
+attributes: {"href":"../../bbaw/Forschung/Forschungsprojekte/gcs/de/Startseite"}
+
+target: http://www.bbaw.de/bbaw/Forschung/Forschungsprojekte/leibniz_berlin/de/Startseite
+text: Berlin
+attributes: {"href":"../../bbaw/Forschung/Forschungsprojekte/leibniz_berlin/de/Startseite"}
+
+target: http://www.bbaw.de/bbaw/Forschung/Forschungsprojekte/mega/de/Startseite
+text: MEGA
+attributes: {"href":"../../bbaw/Forschung/Forschungsprojekte/mega/de/Startseite"}
+
+target: http://www.bbaw.de/bbaw/Forschung/Forschungsprojekte/pmbz/de/Startseite
+text: Prosopographie der mittelbyzantinischen
+
+ Zeit
+attributes: {"href":"../../bbaw/Forschung/Forschungsprojekte/pmbz/de/Startseite"}
+
+target: http://www.bbaw.de/bbaw/Forschung/Forschungsprojekte/turfanforschung/de/Startseite
+text: Turfan
+attributes: {"href":"../../bbaw/Forschung/Forschungsprojekte/turfanforschung/de/Startseite"}
+
+target: http://www.bbaw.de/telota/projekte/digitale_editionen
+text: Digitale Editionen
+attributes: {"class":"more","href":"/telota/projekte/digitale_editionen","target":"_self"}
+
+target: http://www.bbaw.de/telota/projekte/digitale_editionen
+text: Digitale Editionen
+attributes: {"class":"more","href":"/telota/projekte/digitale_editionen","target":"_self"}
+
+
+###################################################################
+http://www.bbaw.de/service/publikationen-bestellen/
+###################################################################
+
+target: http://www.bbaw.de/publikationen/debatten/debatte-10/at_download/file
+text: PDF
+attributes: {"href":"http://www.bbaw.de/publikationen/debatten/debatte-10/at_download/file"}
+
+target: http://www.bbaw.de/publikationen/debatten/debatte-10/at_download/file
+text: PDF
+attributes: {"href":"http://www.bbaw.de/publikationen/debatten/debatte-10/at_download/file"}
+
+target: http://www.bbaw.de/publikationen/debatten/debatte11
+text: PDF
+attributes: {"href":"http://www.bbaw.de/publikationen/debatten/debatte11"}
+
+target: http://www.bbaw.de/publikationen/debatten/debatte11
+text: PDF
+attributes: {"href":"http://www.bbaw.de/publikationen/debatten/debatte11"}
+
+target: http://www.bbaw.de/publikationen/neuerscheinungen/pdf-dateien/broschuere-zukunft-mit-kindern
+text: PDF
+attributes: {"href":"http://www.bbaw.de/publikationen/neuerscheinungen/pdf-dateien/broschuere-zukunft-mit-kindern"}
+
+target: http://www.bbaw.de/publikationen/neuerscheinungen/pdf-dateien/broschuere-zukunft-mit-kindern
+text: PDF
+attributes: {"href":"http://www.bbaw.de/publikationen/neuerscheinungen/pdf-dateien/broschuere-zukunft-mit-kindern"}
+
+
+###################################################################
+http://www.bbaw.de/die-akademie/praesidium-und-gremien/
+###################################################################
+
+target: http://www.bbaw.de/die-akademie/mitarbeiter/schubert
+text: 
+attributes: {"href":"/die-akademie/mitarbeiter/schubert"}
+
+
+###################################################################
+http://www.bbaw.de/veranstaltungen/2015/
+###################################################################
+
+target: http://www.bbaw.de/veranstaltungen/2015/november/commerzbankpreis
+text: Festliche Verleihung
+attributes: {"class":"summary event_type","href":"http://www.bbaw.de/veranstaltungen/2015/november/commerzbankpreis"}
+
+
+###################################################################
+http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2014/
+###################################################################
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2014/www.acatech.de
+text: www.acatech.de
+attributes: {"class":"more","href":"www.acatech.de"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2014/www.akademienunion.de
+text: www.akademienunion.de
+attributes: {"class":"more","href":"www.akademienunion.de"}
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2014/www.leopoldina.org
+text: www.leopoldina.org
+attributes: {"class":"more","href":"www.leopoldina.org"}
+
+
+###################################################################
+http://www.bbaw.de/veranstaltungen/2016/september/
+###################################################################
+
+target: http://www.bbaw.de/veranstaltungen/2016/september/www2.bbaw.de/anmeldung-humboldt-tag
+text: www2.bbaw.de/anmeldung-humboldt-tag
+attributes: {"class":"more","href":"/veranstaltungen/2016/september/www2.bbaw.de/anmeldung-humboldt-tag"}
+
+
+###################################################################
+http://www.bbaw.de/telota/aktuelles/
+###################################################################
+
+target: http://www.bbaw.de/bbaw/Forschung/Forschungsprojekte/altaegyptwb/de/Startseite
+text: Akademienvorhaben Altägyptisches Wörterbuch
+attributes: {"href":"../../bbaw/Forschung/Forschungsprojekte/altaegyptwb/de/Startseite"}
+
+target: http://www.bbaw.de/telota/aktuelles/abstracts_edworkshop/Staub
+text: Abstract
+attributes: {"title":"Staub","href":"abstracts_edworkshop/Staub","target":"_self","class":"more"}
+
+target: http://www.bbaw.de/telota/aktuelles/abstracts_edworkshop/assmann_fischer_sahle
+text: Abstract
+attributes: {"title":"Assmann_Fischer_Sahle","href":"abstracts_edworkshop/assmann_fischer_sahle","target":"_self","class":"more"}
+
+target: http://www.bbaw.de/telota/aktuelles/abstracts_edworkshop/buschmeier_veit
+text: Abstract
+attributes: {"title":"Buschmeier_Veit","href":"abstracts_edworkshop/buschmeier_veit","target":"_self","class":"more"}
+
+target: http://www.bbaw.de/telota/aktuelles/abstracts_edworkshop/duntze_fritze
+text: Abstract
+attributes: {"title":"Duntze_Fritze","href":"abstracts_edworkshop/duntze_fritze","target":"_self","class":"more"}
+
+target: http://www.bbaw.de/telota/aktuelles/abstracts_edworkshop/hechthuemmer
+text: Abstract
+attributes: {"title":"HechtHuemmer","href":"abstracts_edworkshop/hechthuemmer","target":"_self","class":"more"}
+
+target: http://www.bbaw.de/telota/aktuelles/abstracts_edworkshop/lukas_recker_hamm
+text: Abstract
+attributes: {"title":"Lukas_Recker_Hamm","href":"abstracts_edworkshop/lukas_recker_hamm","target":"_self","class":"more"}
+
+target: http://www.bbaw.de/telota/aktuelles/abstracts_edworkshop/rapp_burch
+text: Abstract
+attributes: {"title":"Rapp_Burch","href":"abstracts_edworkshop/rapp_burch","target":"_self","class":"more"}
+
+target: http://www.bbaw.de/telota/aktuelles/abstracts_edworkshop/schuetz_ritter
+text: Abstract
+attributes: {"title":"Schuetz_Ritter","href":"abstracts_edworkshop/schuetz_ritter","target":"_self","class":"more"}
+
+target: http://www.bbaw.de/telota/aktuelles/telota-lab/telota-werkstatt
+text: Weitere Informationen
+attributes: {"target":"_self","href":"telota-lab/telota-werkstatt","title":"Werkstatt 1"}
+
+target: http://www.bbaw.de/telota/telota-lab/telota-werkstatt-2
+text: Mehr Informationen ...
+attributes: {"target":"_self","href":"../telota-lab/telota-werkstatt-2","title":"Telota-Werkstatt-2"}
+
+
+###################################################################
+http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2015/
+###################################################################
+
+target: http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2015/commerzbankpreis
+text: mehr
+attributes: {"class":"more","href":"http://www.bbaw.de/presse/pressemitteilungen/pressemitteilungen-2015/commerzbankpreis"}
+
+
+###################################################################
+http://www.bbaw.de/presse/presseecho/presseecho-2016/
+###################################################################
+
+target: http://www.bbaw.de/presse/presseecho/presseecho-2016/www.bbaw.de/presse/presseecho/portal_factory/bbaw_presseecho/bbaw_presseecho.2016-01-26.9254446508/edit
+text: Was wusste dieser Perückenmann über Gottes Pläne?
+attributes: {"class":"more","href":"www.bbaw.de/presse/presseecho/portal_factory/bbaw_presseecho/bbaw_presseecho.2016-01-26.9254446508/edit"}
+
+
+###################################################################
+http://www.bbaw.de/presse/presseecho/presseecho2013/
+###################################################################
+
+target: http://www.bbaw.de/presse/presseecho2013/portal_factory/bbaw_presseecho/bbaw_presseecho.2013-02-08.7129326565/edit
+text: Liebe auf den ersten Klick
+attributes: {"class":"more","href":"http://www.bbaw.de/presse/presseecho2013/portal_factory/bbaw_presseecho/bbaw_presseecho.2013-02-08.7129326565/edit"}
+
+
+###################################################################
+http://www.bbaw.de/presse/presseecho/presseecho2011/
+###################################################################
+
+target: http://www.bbaw.de/presse/presseecho/presseecho2011/Sprich zu mir! - The Language Archive
+text: Sprich zu mir! - The Language Archive
+attributes: {"class":"more","href":"Sprich zu mir! - The Language Archive"}
+
+
+###################################################################
+http://www.bbaw.de/forschung/turfanforschung/dta/index.html/
+###################################################################
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/GerFlag.gif
+text: 
+attributes: {"src":"GerFlag.gif","border":"0","height":"26","width":"33"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/UKFlag.gif
+text: 
+attributes: {"src":"UKFlag.gif","border":"0","height":"26","width":"33"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/adler.gif
+text: 
+attributes: {"src":"adler.gif","alt":"zur BBAW-Startseite","border":"0","height":"130","width":"130"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/bi/dta_bi_index.htm
+text: 
+attributes: {"onmouseover":"wechsel(5,bisig); wechsel(4,bi02); return true","onmouseout":"wechsel(5,rahmen); wechsel(4,bi01);\n         return true","href":"bi/dta_bi_index.htm"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/bi01.jpg
+text: 
+attributes: {"src":"bi01.jpg","border":"0","height":"20","width":"313"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/bs/dta_bs_index.htm
+text: 
+attributes: {"onmouseover":"wechsel(5,bssig); wechsel(6,bs02); return true","onmouseout":"wechsel(5,rahmen); wechsel(6,bs01);\n          return true","href":"bs/dta_bs_index.htm"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/bs01.jpg
+text: 
+attributes: {"src":"bs01.jpg","border":"0"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/ch01.jpg
+text: 
+attributes: {"src":"ch01.jpg","border":"0"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/ch_u/dta_chu_index.html
+text: 
+attributes: {"onmouseover":"wechsel(5,chusig); wechsel(8,chu02); return true","onmouseout":"wechsel(5,rahmen); wechsel(8,chu01);\n          return true","href":"ch_u/dta_chu_index.html"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/chn01.jpg
+text: 
+attributes: {"src":"chn01.jpg","border":"0","height":"41","width":"235"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/chu01.jpg
+text: 
+attributes: {"src":"chu01.jpg","align":"middle","border":"0"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/dfg_logo.jpg
+text: 
+attributes: {"src":"dfg_logo.jpg","alt":"zur Webseite der DFG","border":"0","height":"77","width":"164"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/dta_MerkGer_index.html
+text:   Hinweis für die Benutzung von
+Handschriften aus der Berliner Turfan-Sammlung
+attributes: {"href":"dta_MerkGer_index.html"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/dta_RulesEngl_index.html
+text:   Rules for the use of manuscripts from the Berlin
+Turfan-Collection
+attributes: {"href":"dta_RulesEngl_index.html"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/h/dta_h_index.htm
+text: 
+attributes: {"onmouseover":"wechsel(5,hsig); wechsel(9,h02); return true","onmouseout":"wechsel(5,rahmen); wechsel(9,h01); return true","href":"h/dta_h_index.htm"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/h01.jpg
+text: 
+attributes: {"src":"h01.jpg","border":"0","height":"20","width":"295"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/ks/dta_ks_index.htm
+text: 
+attributes: {"onmouseover":"wechsel(5,kssig); wechsel(10,ks02); return true","onmouseout":"wechsel(5,rahmen); wechsel(10,ks01);\n            return true","href":"ks/dta_ks_index.htm"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/ks01.jpg
+text: 
+attributes: {"src":"ks01.jpg","border":"0"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/m/dta_m_index.htm
+text: 
+attributes: {"onmouseover":"wechsel(5,msig); wechsel(11,m02); return true","onmouseout":"wechsel(5,rahmen); wechsel(11,m01);\n            return true","href":"m/dta_m_index.htm"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/m01.jpg
+text: 
+attributes: {"src":"m01.jpg","border":"0"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/mainz/dta_mainz_index.htm
+text: 
+attributes: {"onmouseover":"wechsel(5,mainzsig); wechsel(12,mainz02); return true","onmouseout":"wechsel(5,rahmen); wechsel(12,mainz01); return true","href":"mainz/dta_mainz_index.htm"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/mainz01.jpg
+text: 
+attributes: {"src":"mainz01.jpg","border":"0"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/monght/dta_monght_index.htm
+text: 
+attributes: {"onmouseover":"wechsel(5,monghtsig); wechsel(13,monght02); return true","onmouseout":"wechsel(5,rahmen); wechsel(13,monght01); return true","href":"monght/dta_monght_index.htm"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/monght01.jpg
+text: 
+attributes: {"src":"monght01.jpg","border":"0"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/n/dta_n_index.html
+text: 
+attributes: {"onmouseover":"wechsel(5,chnsig); wechsel(14,chn02); return true","onmouseout":"wechsel(5,rahmen); wechsel(14,chn01);\n            return true","href":"n/dta_n_index.html"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/np/dta_np_index.htm
+text: 
+attributes: {"onmouseover":"wechsel(5,npsig); wechsel(15,np02); return true","onmouseout":"wechsel(5,rahmen); wechsel(15,np01); return true","href":"np/dta_np_index.htm"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/np01.jpg
+text: 
+attributes: {"src":"np01.jpg","border":"0","height":"20","width":"322"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/ps/dta_ps_index.htm
+text: 
+attributes: {"onmouseover":"wechsel(5,pssig); wechsel(16,ps02); return true","onmouseout":"wechsel(5,rahmen); wechsel(16,ps01); return true","href":"ps/dta_ps_index.htm"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/ps01.jpg
+text: 
+attributes: {"src":"ps01.jpg","border":"0","height":"18","width":"198"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/sbb_logo.jpg
+text: 
+attributes: {"src":"sbb_logo.jpg","alt":"zur Webseite der Staatsbibliothek zu Berlin","border":"0","height":"72","width":"166"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/so/dta_so_index.htm
+text: 
+attributes: {"onmouseover":"wechsel(5,sosig); wechsel(17,so02); return true","onmouseout":"wechsel(5,rahmen); wechsel(17,so01); return true","href":"so/dta_so_index.htm"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/so01.jpg
+text: 
+attributes: {"src":"so01.jpg","border":"0"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/ts/dta_ts_index.htm
+text: 
+attributes: {"onmouseover":"wechsel(5,tssig); wechsel(18,ts02); return true","onmouseout":"wechsel(5,rahmen); wechsel(18,ts01); return true","href":"ts/dta_ts_index.htm"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/ts01.jpg
+text: 
+attributes: {"src":"ts01.jpg","border":"0"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/u/dta_u_index.htm
+text: 
+attributes: {"onmouseover":"wechsel(5,usig); wechsel(19,u02); return true","onmouseout":"wechsel(5,rahmen); wechsel(19,u01); return true","href":"u/dta_u_index.htm"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/u01.jpg
+text: 
+attributes: {"src":"u01.jpg","border":"0"}
+
+target: http://www.bbaw.de/forschung/turfanforschung/dta/index.html/webarchiv.jpg
+text: 
+attributes: {"src":"webarchiv.jpg","align":"middle","height":"180","width":"150"}
+
+
+###################################################################
+http://www.bbaw.de/AuS/wettbewerbe/
+###################################################################
+
+target: http://www.bbaw.de/AuS/wettbewerbe/die-akademie/auszeichnungen/preise/liselotte-richter-preis-der-leibniz-edition-potsdam-der-bbaw/2007
+text: Stefanie Gryzik, Stephanie Reetz, Anna Sherichow und Katrin Schmidt
+attributes: {"href":"die-akademie/auszeichnungen/preise/liselotte-richter-preis-der-leibniz-edition-potsdam-der-bbaw/2007"}
+
+target: http://www.bbaw.de/AuS/wettbewerbe/die-akademie/auszeichnungen/preise/liselotte-richter-preis-der-leibniz-edition-potsdam-der-bbaw/2009
+text: Daniel Krauße
+attributes: {"href":"die-akademie/auszeichnungen/preise/liselotte-richter-preis-der-leibniz-edition-potsdam-der-bbaw/2009"}
+

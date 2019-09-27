@@ -110,7 +110,7 @@ class Crawler {
     // pushes the url otherwise
     const SkipStart = ['afs:', 'cid:', 'file:', 'ftp:', 'mailto:', 'mid:', 'news:', 'x-exec:', '#'];
     const SkipEnd = ['.mp3', '.mp4', '.webm', '.wav', '.flac', '.ogg', '.pdf'];
-    const skipAnywhere = ['javascript'];
+    const SkipAnywhere = ['javascript'];
     const flagStart = skipPhrase => href.startsWith(skipPhrase);
     const flagEnd = skipPhrase => href.endsWith(skipPhrase);
     const flagAny = skipPhrase => href.includes(skipPhrase);
@@ -121,23 +121,23 @@ class Crawler {
         text,
         attributes
       });
-    } else if (SkipStart.some(flagStart) || SkipEnd.some(flagEnd) || skipAnywhere.some(flagAny)) {
+    } else if (SkipStart.some(flagStart) || SkipEnd.some(flagEnd) || SkipAnywhere.some(flagAny)) {
       // skip href
     } else if (href.startsWith('http://') || href.startsWith('https://')) {
       if (href.includes(this.initUrl.hostname) || this.CRAWL_EXTERNAL_PAGES) {
         // push absolute links
         this.pushNew({
           origin: currentUrl,
-          target: href,
+          target: href.trim(),
           text,
           attributes
         });
       }
     } else {
-      // relative links, files, anchors
+      // relative links
       this.pushNew({
         origin: currentUrl,
-        target: absoluteLink(currentUrl, href),
+        target: absoluteLink(currentUrl, href.trim()),
         text,
         attributes
       });
@@ -152,13 +152,14 @@ class Crawler {
         this.brokenpages.push({
           origin: currentUrl,
           target: 'undefined',
-          text: base.text(),
+          text: 'corrupt base tag',
           attributes: base.attribs
         });
         return currentUrl;
       }
       // delete anything after the last slash, we just need the path
-      return href.substring(0, href.lastIndexOf('/') + 1);
+      // return href.substring(0, href.lastIndexOf('/') + 1);
+      return href;
     }
     if (base.length > 2) {
       this.brokenpages.push({
@@ -173,24 +174,22 @@ class Crawler {
   }
 
   collectLinks($, currentUrl) {
-    // console.log('collecting Links');
     const Links = $('a[href]');
     Links.each((index, element) => {
       const href = $(element).attr('href');
       const attributes = JSON.stringify(element.attribs);
       const text = $(element).text();
-      this.validateLink(currentUrl, href.trim(), attributes, text);
+      this.validateLink(currentUrl, href, attributes, text);
     });
   }
 
   collectImages($, currentUrl) {
-    // console.log('collecting Img');
     const img = $('img');
     img.each((index, element) => {
       const src = $(element).attr('src');
       const attributes = JSON.stringify(element.attribs);
       const text = $(element).text();
-      this.validateLink(currentUrl, src.trim(), attributes, text);
+      this.validateLink(currentUrl, src, attributes, text);
     });
   }
 
@@ -282,7 +281,7 @@ class Crawler {
       );
     } else {
       report = report.concat(
-        `Crawling completed.${this.numPagesCrawled} pages crawled. \r\n` +
+        `Crawling completed. ${this.numPagesCrawled} pages crawled. \r\n` +
         `${this.linkTuples.length - this.numPagesCrawled} pages unchecked because MAX_PAGES_TO_CRAWL was reached before. \r\n` +
         `${this.brokenpages.length} broken pages found. \r\n`,
       );
@@ -326,13 +325,3 @@ class Crawler {
 module.exports = {
   Crawler
 };
-/*
-const MyCrawler = new Crawler(
-  // 'http://www.bbaw.de/', // start URL
-  'http://www.bbaw.de/',
-  20000, // max pages to crawl
-  false, // crawl external pages
-  true, // verbose console output
-);
-MyCrawler.start();
-*/

@@ -48,8 +48,7 @@ Searching for a word is not implemented anymore, console outputs are far more ve
 #### OOP all the way
 
 For a variety of reasons, using objects that crawl "on their own" is convenient. We can save broken links as properties, we don't have to pass parameters like the current page count
-and have multiple crawlers with different ouput verbosity. Crawlers are initialized as shown above and executed via MyCrawlert.start(). Note that starting a crawler multiple times is not intended
-allthough it should work fine and startover fresh again.
+and have multiple crawlers with different ouput verbosity. Crawlers are initialized as shown above and executed via MyCrawlert.start().
 
 #### Running a test with mocha
 
@@ -63,12 +62,19 @@ What `test.js` does:
 * wait for its promise (MyCrawler.PromiseToBeDone) to resolve
 * check if MyCrawler.brokenpages is empty or not
 
-#### Tuples instead of strings
+#### Objects instead of strings
 
-Usually, we already know which resource is offline. We just want to update the old links and be done. This is where tuples come into play.
-In the end the crawler outputs broken links in objects with two properties: origin (where we found the broken link) and target (usually the absolute link that is broken).
+Usually, we already know which ressource is offline. We just want to update the old links and be done. This is where objects come into play.
+Links are stored in Objects with four properties:
+* origin - URL where we found the broken link
+* target - URL of the link that is broken
+* text - from within the anchor element
+* attributes - object containing the attributes of the anchor / img (most importantly href / src)
 
-####
+#### Log files
+
+Using our objects it is possible to summarize the test in a log file. Broken links from the same origin are grouped together and listed together with all the available data on them. Log files are automatically saved to `\log` and named by the time of the test.
+
 ## Possible Modifications
 
 #### Searching for a Keyword
@@ -83,7 +89,7 @@ function searchForWord($, word) {
   return false;
 }
 ```
-Create an oldAdressPages property for our crawler.  
+Create a property called `oldAdressPages` for our crawler.  
 Edit the visitPage function to store all URLS with the old adress in this.oldAdressPages:
 ```javascript
 visitPage {
@@ -98,6 +104,7 @@ if (linkTuple.target.includes(this.initUrl.hostname || this.CRAWL_EXTERNAL_PAGES
 
 #### Excluding references that are not state of the art
 
-The current version of the crawler doesn't take deprecated (or bad) reference habits into account. Links with ```href="javascript:;"``` are considered broken links and there's a 
+Allthough some Links are not leading into a 404, they may work in a way that is not good practice. Links with ```href="javascript:;"``` are considered broken links and there's a 
 [better way](https://stackoverflow.com/a/8493975/7395578) to do this. The same argument holds for ```href="/../subpage"```. If you don't want to change these old references and don't want
-the test to fail because of them, add your exceptions to ```SkipStart``` or ```SkipEnd``` in the validateLink function. 
+the test to fail because of them, add your exceptions to ```SkipStart```, ```SkipAnywhere``` or ```SkipEnd``` in the validateLink function.
+This currently includes file endings as well, because loading the body of a PDF ressource is not going to work. You may add a specific `visitFileURL`function that only checks for the HTTP Code and continues to crawl afterwards.
