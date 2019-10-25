@@ -211,7 +211,7 @@ class Crawler {
         } else if (response.statusCode !== 200) {
           // push broken page if status code is not 200 HTTP OK
           this.brokenpages.push(linkTuple);
-          this.log(`${this.numPagesCrawled}[origin] ${linkTuple.origin}\n[broken link] ${linkTuple.target}`, 'red');
+          this.log(`${this.numPagesCrawled}[origin] ${linkTuple.origin}\n[broken link] ${linkTuple.target} \n`, 'red');
           this.crawl();
         } else {
           this.log(`${this.numPagesCrawled}[online] ${linkTuple.target} \n`, 'green');

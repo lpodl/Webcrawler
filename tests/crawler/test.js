@@ -13,7 +13,7 @@ const {
 describe('Links are online', () => {
   const MyCrawler = new Crawler(
     'http://www.bbaw.de/', //start URL
-    15000, // max pages to crawl
+    1500, // max pages to crawl
     false, // crawl external pages
     true, // verbose console output
   );

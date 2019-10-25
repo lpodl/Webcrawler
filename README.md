@@ -11,12 +11,12 @@ Starting from a given url, the Crawler will:
 
 This repository includes a setup to test for broken links on a website with Mocha.js.
 
-<img src="demo/demo_terminal.gif" width="700">
-<img src="demo/demo_logfile.png" width="700">
+<img src="/demo/demo_terminal.gif" width="700">
+<img src="/demo/demo_logfile.png" width="700">
 
 ## Setup
 
-Download this repository and run  ` npm install .` or `yarn`. This will fetch and install all needed libraries for this crawler.
+Download this repository and run  ` npm install .` or `yarn`. This will fetch and install all needed libraries for this crawler. To run tests from the terminal mocha has to be installed globally. Do so with `npm install -g mocha`.
 
 Go to tests\crawler and open `test.js`. A new Webcrawler is initiated. Enter your specifications for it:
 ```javascript
