@@ -1,9 +1,0 @@
-WebCrawler Report from Fri Aug 23 2019 11:35:13 GMT+0200 (Mitteleuropäische Sommerzeit) 
-Crawling completed.176 pages crawled. 
-No more links found.1 broken pages found. 
-###################################################################
-http://pir.bbaw.de/ueberaddenda/
-###################################################################
-target: http://pir.bbaw.de/ueberaddenda/addenda/?format=print
-attributes: {"class":"drucken","target":"_blank","href":"http://pir.bbaw.de/ueberaddenda/addenda/?format=print"}
-

@@ -1,4 +1,0 @@
-WebCrawler Report from Wed Sep 04 2019 19:51:59 GMT+0200 (Mitteleuropäische Sommerzeit) 
-Crawling completed.200 pages crawled. 
-1739 pages unchecked because MAX_PAGES_TO_CRAWL was reached before. 
-0 broken pages found. 

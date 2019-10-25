@@ -11,7 +11,8 @@ Starting from a given url, the Crawler will:
 
 This repository includes a setup to test for broken links on a website with Mocha.js.
 
-
+<img src="demo/demo_terminal.gif" width="700">
+<img src="demo/demo_logfile.png" width="700">
 
 ## Setup
 
@@ -108,3 +109,8 @@ Allthough some Links are not leading into a 404, they may work in a way that is 
 [better way](https://stackoverflow.com/a/8493975/7395578) to do this. The same argument holds for ```href="/../subpage"```. If you don't want to change these old references and don't want
 the test to fail because of them, add your exceptions to ```SkipStart```, ```SkipAnywhere``` or ```SkipEnd``` in the validateLink function.
 This currently includes file endings as well, because loading the body of a PDF ressource is not going to work. You may add a specific `visitFileURL`function that only checks for the HTTP Code and continues to crawl afterwards.
+
+
+## License
+
+This Code is based on a [post](http://www.netinstructions.com/how-to-make-a-simple-web-Crawler-in-javascript-and-node-js/) from a user called Stephen. It is published under [ISC License](license.txt).
