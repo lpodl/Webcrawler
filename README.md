@@ -11,8 +11,7 @@ Starting from a given url, the Crawler will:
 
 This repository includes a setup to test for broken links on a website with Mocha.js.
 
-<img src="/demo/demo_terminal.gif" width="700">
-<img src="/demo/demo_logfile.png" width="700">
+<img src="/demo/demo_terminal.gif" width="420"><img src="/demo/demo_logfile.png" width="420">
 
 ## Setup
 
@@ -113,4 +112,4 @@ This currently includes file endings as well, because loading the body of a PDF 
 
 ## License
 
-This Code is based on a [post](http://www.netinstructions.com/how-to-make-a-simple-web-Crawler-in-javascript-and-node-js/) from a user called Stephen. It is published under [ISC License](license.txt).
+This Code is based on a [post](http://www.netinstructions.com/how-to-make-a-simple-web-Crawler-in-javascript-and-node-js/) from a user called Stephen. It is published under [ISC License](license.txt). Everything else is published under GNU LGPL.
