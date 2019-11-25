@@ -112,4 +112,4 @@ This currently includes file endings as well, because loading the body of a PDF 
 
 ## License
 
-This Code is based on a [post](http://www.netinstructions.com/how-to-make-a-simple-web-Crawler-in-javascript-and-node-js/) from a user called Stephen. It is published under [ISC License](license.txt). Everything else is published under GNU LGPL.
+This Code is based on a [post](http://www.netinstructions.com/how-to-make-a-simple-web-Crawler-in-javascript-and-node-js/) from a user called Stephen. It is published under [ISC License](license.txt). Everything else is published under [GNU LGPL](https://www.gnu.org/licenses/lgpl-3.0.de.html).
