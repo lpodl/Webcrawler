@@ -311,7 +311,10 @@ class Crawler {
         );
       });
     });
-    fs.writeFile(`../../log/${dateFormat(date, 'mm-dd-yyyy HH-MM')}.txt`, report);
+    fs.writeFile(`../../log/${dateFormat(date, 'mm-dd-yyyy HH-MM')}.txt`, report, function(err, result) {
+      if(err) {
+        console.log('error', err);
+      }})
   }
 
   promiseToBeDone() {
