@@ -1,0 +1,13 @@
+WebCrawler Report from Thu Feb 06 2020 18:54:10 GMT+0100 (GMT+01:00) 
+Crawling completed. 150 pages crawled. 
+1223 pages unchecked because MAX_PAGES_TO_CRAWL was reached before. 
+1 broken pages found. 
+
+###################################################################
+http://www.bbaw.de/startseite
+###################################################################
+
+target: http://www.bbaw.de/veranstaltungen/2020/februar/digital-humanities-kolloquium
+text: Weitere Informationen
+attributes: {"class":"more","href":"http://www.bbaw.de/veranstaltungen/2020/februar/digital-humanities-kolloquium"}
+
