@@ -11,7 +11,7 @@ Starting from a given url, the Crawler will:
 
 This repository includes a setup to test for broken links on a website with Mocha.js.
 
-<img src="/demo/demo_terminal.gif" width="420"><img src="/demo/demo_logfile.png" width="420">
+<img src="/demo/demo_terminal.gif" width="400"><img src="/demo/demo_logfile.png" width="400">
 
 ## Setup
 
