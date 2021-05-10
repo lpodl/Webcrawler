@@ -12,7 +12,7 @@
     "cheerio": "^1.0.0-rc.2",
     "dateformat": "^3.0.3",
     "fs": "^0.0.1-security",
-    "lodash": ">=4.17.12",
+    "lodash": ">=4.17.21",
     "mocha": "^5.2.0",
     "request": "^2.88.0",
     "url-parse": "^1.4.3"
