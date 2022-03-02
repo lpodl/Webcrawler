@@ -15,7 +15,7 @@
     "lodash": ">=4.17.12",
     "mocha": "^5.2.0",
     "request": "^2.88.0",
-    "url-parse": "^1.4.3"
+    "url-parse": "^1.5.9"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.2",
